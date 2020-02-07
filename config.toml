@@ -1,0 +1,193 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "CDAP"
+theme = ["docsy"]
+description = "CDAP is an open source, integrated framework that accelerates application development for data analytics"
+Paginate = 20
+
+# SEO
+enableRobotsTXT = true
+
+# Docsy: Gives values to .Lastmod etc.
+enableGitInfo = true
+
+# Docsy: Language settings
+contentDir = "content"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+# Docsy: Useful when translating.
+enableMissingTranslationPlaceholders = true
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+# Docsy: Highlighting config
+pygmentsCodeFences = true
+pygmentsUseClasses = false
+# Use the new Chroma Go highlighter in Hugo.
+pygmentsUseClassic = false
+#pygmentsOptions = "linenos=table"
+# See https://help.farbox.com/pygments.html
+pygmentsStyle = "tango"
+
+ # Docsy: First one is picked as the Twitter card image if not set on page.
+ #images = ["images/project-illustration.png"]
+
+# Top-level navigation (horizontal)
+
+[[menu.main]]
+    name = "About"
+    weight = -103
+    url = "/docs/about/kubeflow/"
+[[menu.main]]
+    name = "Documentation"
+    weight = -101
+    url = "/docs/"
+[[menu.main]]
+    name = "Blog"
+    weight = -100
+    url = "https://medium.com/cdapio"
+[[menu.main]]
+    name = "GitHub"
+    weight = -99
+    url = "https://github.com/cdapio/"
+
+# Docsy: Configure the format of URLs per section.
+#[permalinks]
+#blog = "/:section/:year/:month/:day/:slug/"
+
+## Docsy: Configuration for BlackFriday markdown parser: https://github.com/russross/blackfriday
+[blackfriday]
+plainIDAnchors = true
+hrefTargetBlank = true
+angledQuotes = false
+latexDashes = true
+
+# Docsy: Image processing configuration.
+[imaging]
+resampleFilter = "CatmullRom"
+quality = 75
+anchor = "smart"
+
+[services]
+[services.googleAnalytics]
+id = "UA-135379910-1"
+
+# Docsy: Language configuration
+
+[languages]
+[languages.en]
+title = "CDAP"
+description = "CDAP is an open source, integrated framework that accelerates application development for data analytics"
+languageName ="English"
+weight = 1
+# Example of another language: Norwegian
+#[languages.no]
+#title = "Docsy"
+#description = "Docsy er operativsystem for skyen"
+#languageName ="Norsk"
+#contentDir = "content/no"
+time_format_default = "02.01.2006"
+time_format_blog = "02.01.2006"
+
+# Site params
+
+[params]
+github_repo = "https://github.com/kubeflow/cdap-docs"
+RSSLink = "/index.xml"
+author = "CDAP Authors" # add your company name
+github = "cdapio" # add your github profile name
+twitter = "cdapio" # add your twitter profile
+#email = "myemail@myaddress.xxx"
+
+copyright = "CDAP Authors."
+privacy_policy = "https://policies.google.com/privacy"
+
+# Docsy: Google Custom Search Engine ID. Remove or comment out to disable search.
+#gcs_engine_id = "007239566369470735695:624rglujm-w"
+
+# Text label for the version menu in the top bar of the website.
+#version_menu = "v1.0RC"
+
+# The major.minor version tag for the version of the docs represented in this
+# branch of the repository. Used in the "version-banner" partial to display a
+# version number for this doc set.
+#version = "v1.0"
+
+# Flag used in the "version-banner" partial to decide whether to display a 
+# banner on every page indicating that this is an archived version of the docs.
+archived_version = false
+
+# A link to latest version of the docs. Used in the "version-banner" partial to
+# point people to the main doc site.
+#url_latest_version = "https://kubeflow.org/docs/"
+
+# A variable used in various docs to determine URLs for config files etc.
+# To find occurrences, search the repo for 'params "githubbranch"'.
+#githubbranch = "v1.0-branch"
+
+# Add new release versions here. These entries appear in the drop-down menu
+# at the top of the website.
+#[[params.versions]]
+#  version = "master"
+#  githubbranch = "master"
+#  url = "https://master.kubeflow.org"
+
+#[[params.versions]]
+#  version = "v0.2"
+#  githubbranch = "v0.2-branch"
+#  url = "https://v0-2.kubeflow.org"
+
+#[[params.versions]]
+#  version = "v0.3"
+# githubbranch = "v0.3-branch"
+#  url = "https://v0-3.kubeflow.org"
+
+# Docsy: User interface configuration
+[params.ui]
+# Docsy: Enable to show the side bar menu in its compact state.
+sidebar_menu_compact = true
+# Docsy: Disable the search box in the side bar.
+sidebar_search_disable = true
+#  Docsy: Set to true to disable breadcrumb navigation.
+breadcrumb_disable = false
+
+# Adds a H2 section titled "Feedback" to the bottom of each doc. The responses are sent to Google Analytics as events.
+# This feature depends on [services.googleAnalytics] and will be disabled if "services.googleAnalytics.id" is not set.
+# If you want this feature, but occasionally need to remove the "Feedback" section from a single page,
+# add "hide_feedback: true" to the page's front matter.
+[params.ui.feedback]
+enable = true
+# The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
+yes = 'Glad to hear it! Please <a href="https://github.com/kubeflow/website/issues/new">tell us how we can improve</a>.'
+no = 'Sorry to hear that. Please <a href="https://github.com/kubeflow/website/issues/new">tell us how we can improve</a>.'
+
+
+[params.links]
+# Docsy: "User" links will show on left side of footer and in the community page if you have one.
+[[params.links.user]]
+	name ="Twitter"
+	url = "https://twitter.com/cdapio"
+	icon = "fab fa-twitter"
+        desc = "Follow us on Twitter to get the latest news"
+[[params.links.user]]
+	name = "GitHub"
+	url = "https://github.com/cdapio/cdap"
+	icon = "fab fa-github"
+        desc = "Development takes place here!"
+#[[params.links.user]]
+#	name = "Slack"
+#	url = "https://kubeflow.slack.com/join/shared_invite/enQtNDg5MTM4NTQyNjczLTdkNTVhMjg1ZTExOWI0N2QyYTQ2MTIzNTJjMWRiOTFjOGRlZWEzODc1NzMwNTMwM2EzNjY1MTFhODczNjk4MTk"
+#	icon = "fab fa-slack"
+#        desc = "Chat with other project contributors"
+[[params.links.user]]
+	name = "Mailing list"
+	url = "https://groups.google.com/forum/#!forum/cdap-user"
+	icon = "fa fa-envelope"
+        desc = "Discussion and help from your fellow users"
+
+# Docsy: "Developer" links will show on right side of footer and in the community page if you have one.
+#[[params.links.developer]]
+#	name = "A name"
+#	url = "http://example.com"
+#	icon = "fab fa-envelope"
+#       desc = "A description"
