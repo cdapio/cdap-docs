@@ -57,7 +57,6 @@
   url = "/commands/"
 
 
-
 # LOW LEVEL ITEMS
 
 
@@ -108,47 +107,21 @@
     url = "/tags/fundamentals/"
 
 
-
-
 ######## GLOBAL ITEMS TO BE SHARED WITH THE HUGO SITES
-
 [[global]]
-    name = "News"
+    name = "Documentation"
     weight = 1
-    identifier = "news"
+    identifier = "docs"
+    url = "/documentation/"
+	
+[[global]]
+    name = "Releases"
+    weight = 5
+    identifier = "releases"
     url = "/news/"
 
   [[global]]
-    name = "Docs"
-    weight = 5
-    identifier = "docs"
-    url = "/documentation/"
-
-  [[global]]
-    name = "Themes"
+    name = "Knowledge Base"
     weight = 10
-    identifier = "themes"
-    url = "https://themes.gohugo.io/"
-
-    [[global]]
-      name = "Showcase"
-      weight = 20
-      identifier = "showcase"
-      url = "/showcase/"
-
-  # Anything with a weight > 100 gets an external icon
-  [[global]]
-    name = "Community"
-    weight = 150
-    icon = true
-    identifier = "community"
-    post = "external"
-    url = "https://discourse.gohugo.io/"
-
-
-  [[global]]
-    name = "GitHub"
-    weight = 200
-    identifier = "github"
-    post = "external"
-    url = "https://github.com/gohugoio/hugo"
+    identifier = "kb"
+    url = "/knowledge-base"

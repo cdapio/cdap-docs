@@ -31,7 +31,7 @@
         </time>
         {{ if in .Params.categories "Releases" }}
         <p>
-        Go to <a href="https://github.com/gohugoio/hugo/releases" class="link primary-color dim">Hugo Releases</a> for the release downloads.
+        Go to <a href="https://github.com/cdapio/cdap/releases" class="link primary-color dim">CDAP Releases</a> for the release downloads.
         </p>
         {{ end }}
         <!--
@@ -54,9 +54,30 @@
           <img src="{{ $featured.RelPermalink }}" alt="Featured Image for {{ $.Title }}" class="mw-100">
           {{ end }}
           {{ end }}
-        {{ .Content }}
+		  {{ .Content }}
+	
+       <h2> Few Features </h2>			  
+       <div>
+         {{ if .Params.newfeatures }}
+          <ul>
+          <div class=" flex-ns flex-wrap justify-center center mw9">
+            {{ $features := .Params.newfeatures }}
+            {{ range $i, $e := $features  }}
+            {{ $features_count := $e | len }}
+				<li>
+	                {{ with .jira }}
+	  			    <a href="https://issues.cask.co/browse/CDAP-{{ . }}">CDAP-{{ . }}</a>
+	                {{ end }} {{ .desc }}
+				</li>
+          {{ end }}
+         </div>
+		 </ul>	
+        {{ end }}
+     </div>
+		 		  
       </div>
     </div>
+	
     {{ if and .Params.tags .Site.Taxonomies.tags }}
       <div class="mt5 f6 gray nested-lh-copy bg-light-gray ph3 pv2 measure-wide-l">
           {{ $name := index .Params.tags 0 }}
@@ -78,10 +99,10 @@
           </div>
         {{end}}
 
-      <div class="gray f6 mv6">
+<!--      <div class="gray f6 mv6">
         Last Update: {{ .Lastmod.Format "January 2, 2006" }} <br>
         {{ partial "page-edit.html" . }}
-      </div>
+      </div> -->
 
   </article>
 

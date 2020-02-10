@@ -1,6 +1,6 @@
 {{ $currentPage := . }}
 <nav role="navigation">
-  <ul class="list pa0 nl2">
+  <ul class="list pa1 nl3">
     {{ range .Site.Menus.docs.ByWeight }}
       {{ $post := printf "%s" .Post }}
       <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8{{ if eq $post "break" }} mb1 bb b--moon-gray{{ end }}">
