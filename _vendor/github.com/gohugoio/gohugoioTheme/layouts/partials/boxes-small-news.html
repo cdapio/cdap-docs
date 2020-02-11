@@ -1,8 +1,8 @@
 <section class="relative w-100 bg-black white">
-  <div class="flex flex-wrap w-95-l center center mw10">
-    <a href="/news/" class="link accent-color tr-ns f6 w-100 w-50-m w-10-l bg-animate hover-bg-accent-color hover-white pv3 pv4-l ph3 ph5-l dib">
+  <div class="flex flex-wrap w-100-l center mw10">
+    <!-- a href="/news/" class="link accent-color tr-ns f6 w-100 w-50-m w-10-l bg-animate hover-bg-accent-color hover-white pv3 pv4-l ph3 ph5-l dib">
       Release News:
-    </a>
+    </a -->
     {{ range first 4 ( sort (where .Site.RegularPages "Section" "news") "Date" "desc" ) }}
       <!-- only show 2 boxes on mobile -->
       {{ $.Scratch.Add "i" 1 }}{{ $i := $.Scratch.Get "i" }}
@@ -16,3 +16,4 @@
 
   </div>
 </section>
+

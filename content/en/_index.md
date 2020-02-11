@@ -33,3 +33,12 @@ features:
     tagline: Customize for your environment?
     copy: Learn what are the various ways for extending CDAP. 
 ---
+
+The CDAP is a data application platform for building and managing data analytics applications in hybrid and multi-cloud environments. It enables developers with data and application abstractions to accelerate development of analytics applications, addressing a broader range of real-time and batch use cases.
+CDAP in addition to providing the ability to develop and manage applications, it also supports these essential capabilities:
+
+* Java-based developer APIs and runtime for managing application;
+* Portability of applications through decoupling underlying infrastructures;
+* Abstraction of data through logical representations of underlying data;
+* Services and tools that enable faster application creation in development;
+* Higher degrees of operational control in production through enterprise best practices.

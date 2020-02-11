@@ -1,7 +1,7 @@
 ---
-title: About Hugo
+title: Overview
 linktitle: Overview
-description: Hugo's features, roadmap, license, and motivation.
+description: CDAP's features, roadmap, license, and motivation.
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01
@@ -17,4 +17,6 @@ aliases: [/about-hugo/,/docs/]
 toc: false
 ---
 
-Hugo is not your average static site generator.
+The CDAP is a data application platform for building and managing data analytics applications in hybrid and multi-cloud environments. It enables developers with data and application abstractions to accelerate development of analytics applications, addressing a broader range of real-time and batch use cases.
+CDAP in addition to providing the ability to develop and manage applications.
+

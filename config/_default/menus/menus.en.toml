@@ -1,5 +1,5 @@
 [[docs]]
-  name = "About Hugo"
+  name = "About CDAP"
   weight = 1
   identifier = "about"
   url = "/about/"
@@ -9,94 +9,100 @@
   weight = 5
   identifier = "getting-started"
   url = "/getting-started/"
+  post = "break"
 
 [[docs]]
-  name = "Hugo Modules"
+  name = "Contribute"
   weight = 15
-  identifier = "modules"
-  post = "break"
-  url = "/hugo-modules/"
+  identifier = "contribute"
+  url = "/contribute/"
 
 # Core Menus
 
 [[docs]]
-  name = "Content Management"
+  name = "Platform"
   weight = 20
-  identifier = "content-management"
+  identifier = "platform"
   post = "expanded"
-  url = "/content-management/"
+  url = "/platform/"
 
 [[docs]]
-  name = "Templates"
+  name = "Accelerators"
   weight = 25
-  identifier = "templates"
-
-  url = "/templates/"
+  identifier = "accelerators"
+  url = "/accelerators/"
 
 [[docs]]
-  name = "Functions"
+  name = "CI/CD"
   weight = 30
-  identifier = "functions"
-  url = "/functions/"
+  identifier = "devel-and-testing"
+  url = "/devel-and-testing/"
 
 [[docs]]
-  name = "Variables"
+  name = "Administrations"
   weight = 35
-  identifier = "variables"
-  url = "/variables/"
-[[docs]]
-  name = "Hugo Pipes"
-  weight = 36
-  identifier = "pipes"
-  url = "/hugo-pipes/"
-[[docs]]
-  name = "CLI"
-  weight = 40
-  post = "break"
-  identifier = "commands"
-  url = "/commands/"
+  identifier = "administrations"
+  url = "/administrations/"
 
+[[docs]]
+  name = "Operations"
+  weight = 36
+  identifier = "operations"
+  url = "/operations/"
+  post = "break"
 
 # LOW LEVEL ITEMS
 
 
 [[docs]]
-  name = "Troubleshooting"
+  name = "Rest APIs"
   weight = 60
-  identifier = "troubleshooting"
-  url = "/troubleshooting/"
+  identifier = "rest-apis"
+  url = "/rest-apis/"
+
+[[docs]]
+  name = "Client APIs"
+  weight = 70
+  identifier = "client-apis"
+  url = "/client-apis/"
+
+[[docs]]
+  name = "Hub"
+  weight = 80
+  identifier = "hub"
+  url = "/hub/"
 
 [[docs]]
   name = "Tools"
-  weight = 70
+  weight = 100
+  post = "break"
   identifier = "tools"
   url = "/tools/"
 
 [[docs]]
-  name = "Hosting & Deployment"
-  weight = 80
-  identifier = "hosting-and-deployment"
-  url = "/hosting-and-deployment/"
+  name = "Third Party Integrations"
+  weight = 100
+  identifier = "3rd-party-int"
+  url = "/3rd-party-int/"
 
 [[docs]]
-  name = "Contribute"
+  name = "License"
   weight = 100
-  post = "break"
-  identifier = "contribute"
-  url = "/contribute/"
+  identifier = "license"
+  url = "/license/"    
 
-#[[docs]]
-#  name = "Tags"
-#  weight = 120
-#  identifier = "tags"
-#  url = "/tags/"
+[[docs]]
+  name = "Tags"
+  weight = 120
+  identifier = "tags"
+  url = "/tags/"
 
 
-# [[docs]]
-#   name = "Categories"
-#   weight = 140
-#   identifier = "categories"
-#   url = "/categories/"
+ [[docs]]
+   name = "Categories"
+   weight = 140
+   identifier = "categories"
+   url = "/categories/"
 
 ######## QUICKLINKS
 
@@ -121,7 +127,13 @@
     url = "/news/"
 
   [[global]]
-    name = "Knowledge Base"
+    name = "Tutorial"
     weight = 10
+    identifier = "tutorial"
+    url = "/tutorial"
+
+  [[global]]
+    name = "Knowledge Base"
+    weight = 15
     identifier = "kb"
-    url = "/knowledge-base"
+    url = "/knowledge-base"    

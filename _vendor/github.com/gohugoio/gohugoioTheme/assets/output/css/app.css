@@ -4879,9 +4879,9 @@ pre {
 .tab-content .tab-pane.active + .copy, .tab-content .tab-pane.active + .copied{
 	display: block;
 }
-.primary-color                      {color: #0594CB}
-.bg-primary-color                   {background-color: #0594CB}
-.hover-bg-primary-color:hover       {background-color: #0594CB}
+.primary-color                      {color: #FF6600}
+.bg-primary-color                   {background-color: #FF6600}
+.hover-bg-primary-color:hover       {background-color: #FF6600}
 .primary-color-dark                  {color: #0A1922}
 .bg-primary-color-dark               {background-color: #0A1922}
 .hover-bg-primary-color-dark:hover   {background-color: #0A1922}

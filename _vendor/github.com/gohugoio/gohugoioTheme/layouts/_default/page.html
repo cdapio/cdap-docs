@@ -1,3 +1,4 @@
+<style type="text/css">.prose h2 { margin-top: 1em;}</style>
 <header class="flex-none w-100">
   {{ if .Params.categories }}
     {{ range .Params.categories }}
@@ -33,5 +34,5 @@
 
 <div class="prose" id="prose">
   {{- partial "docs/functions-signature.html" . -}}
-  {{ .Content }}
+  {{ .Content}}
 </div>
