@@ -1,11 +1,11 @@
 ---
 title: Apache License
 linktitle: License
-description: CDAP 0.x and later are released under the Apache 2.0 license.
+description: CDAP is released under the Apache 2.0 license.
 date: 2016-02-01
 publishdate: 2016-02-01
 lastmod: 2016-03-02
-categories: ["about hugo"]
+categories: ["about cdap", "license"]
 keywords: ["License","apache"]
 menu:
   docs:
@@ -16,11 +16,6 @@ sections_weight: 60
 aliases: [/meta/license]
 toc: true
 ---
-
-{{% note %}}
-CDAP 0.x and later are released under the Apache 2.0 license.
-Earlier versions of CDAP were released under the [Simple Public License](https://opensource.org/licenses/Simple-2.0).
-{{% /note %}}
 
 _Version 2.0, January 2004_ <br>
 <https://www.apache.org/licenses/LICENSE-2.0>

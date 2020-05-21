@@ -1,7 +1,7 @@
 ---
 title: Roadmap
 linktitle: Roadmap
-description: Improved performance, security and ease of use are just a few of the reasons static site generators are so appealing.
+description: What's on horizon, what's next
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01

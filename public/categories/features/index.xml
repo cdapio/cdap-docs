@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>features on Hugo</title>
+    <link>https://gohugo.io/categories/features/</link>
+    <description>Recent content in features on Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Feb 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://gohugo.io/categories/features/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Features</title>
+      <link>https://gohugo.io/about/features/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/about/features/</guid>
+      <description>General  XYZ CDAP  Organization  XYZ  Content  XYZ  Additional Features  XYZ  </description>
+    </item>
+    
+  </channel>
+</rss>

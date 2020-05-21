@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    
+    <link rel="preload" href="https://gohugo.io/fonts/muli-latin-200.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://gohugo.io/fonts/muli-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://gohugo.io/fonts/muli-latin-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     
+    <title>Maintenance | Hugo</title>
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+     <meta name="generator" content="Hugo 0.64.0" />
+
+      
+        <meta name="robots" content="noindex, nofollow">
+      
+
+    <link rel="alternate" type="application/rss&#43;xml" href="https://gohugo.io/maintenance/index.xml">
+    
+    
+    
+    
+    
+    
+      
+      <link rel="stylesheet" href="/output/css/app.min.ad562859471199bcc5ab2d00a2785f48a93292e27531cd75748513cd01001752.css" integrity="sha256-rVYoWUcRmbzFqy0AonhfSKkykuJ1Mc11dIUTzQEAF1I=" crossorigin="anonymous">
+      
+          
+    
+
+
+     
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/output/js/app.09ca7921ca2b6e15c2dc516eccf642c08861fe5c249cc9073fb370c0a8a9022c.js" integrity="sha256-Ccp5IcorbhXC3FFuzPZCwIhh/lwknMkHP7NwwKipAiw=" crossorigin="anonymous" defer></script>
+  
+      
+ 
+
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+      
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0594cb">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:title" content="Maintenance" />
+<meta property="og:description" content="Some lists useful for the maintenance of the Hugo docs site." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://gohugo.io/maintenance/" />
+<meta property="og:image" content="https://gohugo.io/images/gohugoio-card.png"/>
+<meta property="og:updated_time" content="2018-02-09T00:00:00+00:00" />
+<meta itemprop="name" content="Maintenance">
+<meta itemprop="description" content="Some lists useful for the maintenance of the Hugo docs site."><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://gohugo.io/images/gohugoio-card.png"/>
+
+<meta name="twitter:title" content="Maintenance"/>
+<meta name="twitter:description" content="Some lists useful for the maintenance of the Hugo docs site."/>
+<meta name="twitter:site" content="@GoHugoIO"/>
+
+
+
+          
+
+  </head>
+  <body class="ma0 sans-serif bg-primary-color-light ">
+    
+<nav class="bg-primary-color-dark pv3 w-100" role="navigation">
+
+  <div class="center flex-ns flex-wrap items-center justify-start mw9">
+
+    <h1 class="dim f3 lh-solid ml0-ns mr0 mr4-l mv0 pl3 pl3-ns">
+      <a href="https://gohugo.io/" class="link white">
+         CDAP Help Center
+      </a>
+    </h1>
+    <ul class="list ma0 pa0 dn dib-l">
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="/about/" class="dim link light-silver">
+            Documentation
+              
+            
+            
+          </a>
+        </li>
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="/news/" class="dim link light-silver">
+            Releases
+              
+            
+            
+          </a>
+        </li>
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="/tutorial" class="dim link light-silver">
+            Tutorial
+              
+            
+            
+          </a>
+        </li>
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="/knowledge-base" class="dim link light-silver">
+            Knowledge Base
+              
+            
+            
+          </a>
+        </li>
+      
+    </ul>
+
+    <div class="db dib-ns pl2 pr2" style="margin-left:auto"><form id="site-search-form" action="" role="search">
+  <fieldset class="bn ma0 pa0">
+    <label class="clip" for="search-input">Search</label>
+    <input type="search" id="search-input" class="needs-js bg-left bn f5 input-reset lh-solid mt3 mt0-ns pl4 pv1 w5 white" placeholder="Search documentation" name="search-input" value="" style="background: transparent url('/images/icon-search.png') no-repeat 0 8px /16px 16px;">
+  </fieldset>
+</form>
+</div>
+
+    
+
+  </div>
+</nav>
+
+    
+    <main role="main" class="content-with-sidebar min-vh-100 pb7 pb0-ns">
+      
+<div class="w-100 ph4 pb5 pb6-ns pt1 mt4 pt3-ns">
+    <div class="flex-l">
+        <div class="order-2 w-100 w-20-l ph5-m ph0-l mb4 sticky">
+            <aside class="fixed-lTK mw5-l right-0 f6 bl-l b--moon-gray pv4 pv0-ns ph4-l nested-list-reset nested-links nested-copy-line-height">
+                <p class="b">What's on this Page</p>
+                <ul>
+                    <li><a href="#last-updated">Last Updated</a></li>
+                    <li><a href="#least-recently-updated">Least Recently Updated</a></li>
+                     <li><a href="#todos">Pages marked with TODO</a></li>
+                </ul>
+            </aside>
+        </div>
+        <div class="w-100">
+            
+            
+                        
+            <h2 id="last-updated">Last Updated</h2>
+            <table class="collapse ba br2 b--black-10 pv2 ph3">
+	<thead>
+		<tr>
+			<th class="pv2 ph3 tl f6 fw6 ttu">LastMod</th>
+			<th class="pv2 ph3 tl f6 fw6 ttu">Link</th>
+			<th class="pv2 ph3 tl f6 fw6 ttu">GitHub</th>
+		</tr>
+	</thead>
+	<tbody>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-11</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/news/4.3.4/">CDAP 4.3.4: Major release</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/news/4.3.4/index.md">
+					wip
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-11</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/about/license/">Apache License</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/about/license.md">
+					wip
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-11</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/about/security/">Security</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/about/security.md">
+					wip
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-11</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/about/roadmap/">Roadmap</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/about/roadmap.md">
+					wip
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-11</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/about/features/">Features</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/about/features.md">
+					wip
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-11</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/about/benefits/">Benefits</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/about/benefits.md">
+					wip
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-11</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/about/history/">History</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/about/history.md">
+					wip
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-10</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/news/5.1.2-relnotes/">CDAP 5.1.2: Storage APIs, Portable Runtime and Pipeline enhancements</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/news/5.1.2-relnotes/index.md">
+					wip
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-10</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/news/6.0.0-relnotes/">CDAP 6.0.0: Storage APIs, Portable Runtime and Pipeline enhancements</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/news/6.0.0-relnotes/index.md">
+					wip
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-10</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/news/6.1.1-relnotes/">CDAP 6.1.1: Pipeline Improvements, Field Level Lineage and bugfixes</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/news/6.1.1-relnotes/index.md">
+					wip
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/functions/with/">with</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/functions/with.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/functions/where/">where</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/functions/where.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/functions/urlize/">urlize</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/functions/urlize.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/functions/upper/">upper</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/functions/upper.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/functions/uniq/">uniq</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/functions/uniq.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/functions/union/">union</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/functions/union.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/functions/truncate/">truncate</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/functions/truncate.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/functions/trim/">trim</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/functions/trim.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/functions/title/">title</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/functions/title.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/functions/time/">time</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/functions/time.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/functions/substr/">substr</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/functions/substr.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/functions/strings.trimsuffix/">strings.TrimSuffix</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/functions/strings.TrimSuffix.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/functions/strings.trimright/">strings.TrimRight</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/functions/strings.TrimRight.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/functions/strings.trimprefix/">strings.TrimPrefix</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/functions/strings.TrimPrefix.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/functions/strings.trimleft/">strings.TrimLeft</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/functions/strings.TrimLeft.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/functions/string/">string</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/functions/string.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/functions/split/">split</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/functions/split.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/functions/sort/">sort</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/functions/sort.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/functions/slicestr/">slicestr</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/functions/slicestr.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/functions/slice/">slice</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/functions/slice.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+	</tbody>
+</table>
+            <h2 id="least-recently-updated">Least Recently Updated</h2>
+            <table class="collapse ba br2 b--black-10 pv2 ph3">
+	<thead>
+		<tr>
+			<th class="pv2 ph3 tl f6 fw6 ttu">LastMod</th>
+			<th class="pv2 ph3 tl f6 fw6 ttu">Link</th>
+			<th class="pv2 ph3 tl f6 fw6 ttu">GitHub</th>
+		</tr>
+	</thead>
+	<tbody>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/hugo-pipes/introduction/">Hugo Pipes Introduction</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/hugo-pipes/introduction.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/documentation/">Hugo Documentation</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/documentation.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/hosting-and-deployment/hugo-deploy/">Hugo Deploy</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/hosting-and-deployment/hugo-deploy.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/hugo-pipes/scss-sass/">SASS / SCSS</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/hugo-pipes/scss-sass.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/troubleshooting/faq/">Frequently Asked Questions</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/troubleshooting/faq.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/troubleshooting/build-performance/">Build Performance</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/troubleshooting/build-performance.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/hosting-and-deployment/deployment-with-nanobox/">Host-Agnostic Deploys with Nanobox</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/hosting-and-deployment/deployment-with-nanobox.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/hosting-and-deployment/hosting-on-render/">Host on Render</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/hosting-and-deployment/hosting-on-render.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/hosting-and-deployment/hosting-on-aws-amplify/">Host on AWS Amplify</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/hosting-and-deployment/hosting-on-aws-amplify.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/contribute/development/">Contribute to Hugo Development</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/contribute/development.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+	</tbody>
+</table>
+
+            
+            
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+                 
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+                 
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+                 
+            
+            <h2 id="todos">Pages marked with TODO</h2>
+            <table class="collapse ba br2 b--black-10 pv2 ph3">
+	<thead>
+		<tr>
+			<th class="pv2 ph3 tl f6 fw6 ttu">LastMod</th>
+			<th class="pv2 ph3 tl f6 fw6 ttu">Link</th>
+			<th class="pv2 ph3 tl f6 fw6 ttu">GitHub</th>
+		</tr>
+	</thead>
+	<tbody>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/getting-started/configuration/">Configure Hugo</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/getting-started/configuration.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+		<tr class="striped--light-gray">
+			<td class="pv2 ph3">2020-02-09</td>
+			<td class="pv2 ph3">
+				<a href="https://gohugo.io/functions/apply/">apply</a>
+			</td>
+			<td class="pv2 ph3">
+				<a href="https://github.com/gohugoio/hugoDocs/blob/master/content/en/functions/apply.md">
+					Initial theme from hugo
+				</a>
+			</td>
+		</tr>
+		
+	</tbody>
+</table>
+
+        </div>
+    </div>
+</div>
+
+    </main>
+
+    <footer class="bg-primary-color-dark ph4-ns pt4 relative w-100" role="contentinfo">
+    <div class="center flex-ns flex-wrap justify-between mw9 w-90">
+      <div class="pb3 pt4 w-100 w-50-ns">
+	
+    </div>
+	  
+
+    <div class="f7 gray mb5 mb0-ns ph3 w-100"> 
+      <p class="dib mr4">Copyright © Cask Data, Inc. 2011–2020.</p>
+    </div>
+
+    
+
+    <div class="bg-primary-color-dark bottom-0 left-0 right-0 dn-l fixed pb3 ph3 w-100"><div  class="globalmenu mobilemenu pb3 dn">
+    
+
+<ul class="list hidden dib ph0 ma0 scrolling-touch tc">
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/about/" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          Documentation
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/news/" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          Releases
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/tutorial" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          Tutorial
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/knowledge-base" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          Knowledge Base
+        </a>
+    </li>
+  
+</ul>
+
+</div>
+<div  class="docsmenu mobilemenu pb3 dn">
+    
+
+<ul class="list dib ph0 ma0 scrolling-touch tc">
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/about/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          About CDAP
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100 mb2 bb b--mid-gray">
+        <a href="/getting-started/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Getting Started
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/contribute/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Contribute
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/platform/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Platform
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/accelerators/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Accelerators
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/devel-and-testing/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          CI/CD
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/administrations/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Administrations
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100 mb2 bb b--mid-gray">
+        <a href="/operations/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Operations
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/rest-apis/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Rest APIs
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/client-apis/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Client APIs
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/hub/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Hub
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/license/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          License
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/3rd-party-int/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Third Party Integrations
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100 mb2 bb b--mid-gray">
+        <a href="/tools/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Tools
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/tags/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Tags
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/categories/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Categories
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/maintenance/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Maintenance
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          functions
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          hosting-and-deployment
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          pipes
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          troubleshooting
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          variables
+        </a>
+    </li>
+  
+</ul>
+
+</div>
+
+<div class="flex dn-l justify-between">
+  <button class="js-toggle flex-auto dib dn-l f6 tc db mt4-ns ph3 pv2 link mr2 white bg-primary-color-dark hover-bg-primary-color ba b--white-40 w-auto" data-target=".globalmenu">Menu</button>
+
+  <button class="js-toggle flex-auto dib dn-l f6 tc db mt4-ns ph3 pv2 link white bg-primary-color-dark hover-bg-primary-color ba b--white-40 w-auto" data-target=".docsmenu">Documentation</button>
+</div>
+</div>
+
+</footer>
+
+    
+
+  </body>
+</html>

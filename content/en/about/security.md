@@ -3,7 +3,7 @@
 ---
 title: Security
 linktitle: Security
-description: About how to configure your Hugo site to meet the new regulations.
+description: Configuing security in CDAP
 date: 2018-05-25
 layout: single
 keywords: ["GDPR", "Privacy", "Data Protection"]
@@ -34,7 +34,7 @@ toc: true
 
 Below are all privacy settings and their default value. These settings need to be put in your site config (e.g. `config.toml`).
 
- {{< code-toggle file="config">}}
+ {{< code-toggle file="cdap-security">}}
 [privacy]
 [privacy.disqus]
 disable = false

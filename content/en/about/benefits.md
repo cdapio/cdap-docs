@@ -1,11 +1,12 @@
 ---
 title: Benefits
 linktitle: Benefits
-description: Improved performance, security and ease of use are just a few of the reasons static site generators are so appealing.
-date: 2017-02-01
-publishdate: 2017-02-01
-lastmod: 2017-02-01
-keywords: [ssg,static,performance,security]
+description: Technology and busineess value propositions.
+date: 2020-02-16
+publishdate: 2020-02-16
+lastmod: 2020-02-16
+categories: ["about cdap", "value"]
+keywords: [value, business, technology]
 menu:
   docs:
     parent: "about"
@@ -13,31 +14,21 @@ menu:
 weight: 3
 sections_weight: 3
 draft: false
-aliases: []
+aliases: [/value]
 toc: false
 ---
 
-The purpose of website generators is to render content into HTML files. Most are "dynamic site generators." That means the HTTP server---i.e., the program that sends files to the browser to be viewed---runs the generator to create a new HTML file every time an end user requests a page.
+CDAP helps technologist and architects 
 
-Over time, dynamic site generators were programmed to cache their HTML files to prevent unnecessary delays in delivering pages to end users. A cached page is a static version of a web page.
+* **Increased Innovation and Faster Delivery** — Support agility in delivering new data analytics solutions to the business on a stable, performant and extendable platform with simple to use APIs and inter-connectivity.
+* **Build-Once-Run-Anywhere** — Deliver environment agnostic data solutions for Public Cloud, Private Cloud and On-Premise through unified platform abstraction for infrastructure.
+* **Standardize and reduce cost of integration** — Pre-built integration with Enterprise and Cloud Technologies — Security, MDM, Scheduler, Monitoring, etc. help standardize with guard rails and reduce overall TCO.
+* **Separation of Logic, Data and Infrastructure**  — Separation of concerns (SoC) provides simplicity, extensibility, stability, and number of residual benefits for building complex manageable data analytics solutions.
 
-Hugo takes caching a step further and all HTML files are rendered on your computer. You can review the files locally before copying them to the computer hosting the HTTP server. Since the HTML files aren't generated dynamically, we say that Hugo is a *static site generator*.
+And the following business value:
 
-This has many benefits. The most noticeable is performance. HTTP servers are *very* good at sending files---so good, in fact, that you can effectively serve the same number of pages with a fraction of the memory and CPU needed for a dynamic site.
+* **Address new market needs, create new revenue streams** — Deliver new specialized frameworks, tools and application for big data and cloud on a unified platform
+* **Reduce cost of innovation with increased agility** — Deliver new version of solutions faster to businesses as the focus is on innovation and not on integration or infrastructure
+* **Increase addressable market** — With its ability to run on Public, Private and On-Premise the solutions can be delivered anywhere the business needs. 
+* **Increased operational efficiency, reduced cost** — Reduced day-to-day dependency on IT with increased governance improves the overall efficiency of delivery data insights. 
 
-## More on Static Site Generators
-
-* ["An Introduction to Static Site Generators", David Walsh][]
-* ["Hugo vs. Wordpress page load speed comparison: Hugo leaves WordPress in its dust", GettingThingsTech][hugovwordpress]
-* ["Static Site Generators", O'Reilly][]
-* [StaticGen: Top Open-Source Static Site Generators (GitHub Stars)][]
-* ["Top 10 Static Website Generators", Netlify blog][]
-* ["The Resurgence of Static", dotCMS][dotcms]
-
-
-["An Introduction to Static Site Generators", David Walsh]: https://davidwalsh.name/introduction-static-site-generators
-["Static Site Generators", O'Reilly]: https://www.oreilly.com/web-platform/free/files/static-site-generators.pdf
-["Top 10 Static Website Generators", Netlify blog]: https://www.netlify.com/blog/2016/05/02/top-ten-static-website-generators/
-[hugovwordpress]: https://gettingthingstech.com/hugo-vs.-wordpress-page-load-speed-comparison-hugo-leaves-wordpress-in-its-dust/
-[StaticGen: Top Open-Source Static Site Generators (GitHub Stars)]: https://www.staticgen.com/
-[dotcms]: https://dotcms.com/blog/post/the-resurgence-of-static

@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo – Hugo</title>
+    <link>https://gohugo.io/zh/</link>
+    <description>Recent Hugo news from gohugo.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <image>
+      <url>https://gohugo.io/img/hugo.png</url>
+      <title>GoHugo.io</title>
+      <link>https://gohugo.io/zh/</link>
+    </image>
+    
+	<atom:link href="https://gohugo.io/zh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

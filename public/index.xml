@@ -1,0 +1,651 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo – A framework for developing and managing data analytics applications.</title>
+    <link>https://gohugo.io/</link>
+    <description>Recent Hugo news from gohugo.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate>
+    <image>
+      <url>https://gohugo.io/img/hugo.png</url>
+      <title>GoHugo.io</title>
+      <link>https://gohugo.io/</link>
+    </image>
+    
+	<atom:link href="https://gohugo.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>News: CDAP 6.1.1: Pipeline Improvements, Field Level Lineage and bugfixes</title>
+      <link>https://gohugo.io/news/6.1.1-relnotes/</link>
+      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/news/6.1.1-relnotes/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This release introduces a number of new features, improvements, and bug fixes to CDAP. Some of the main highlights of the release are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pipeline improvements&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Validation checks for plugins for early error detection and prevention&lt;/li&gt;
+&lt;li&gt;New widgets for better pipeline configurability&lt;/li&gt;
+&lt;li&gt;Wrangler ADLS connection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Field Level Lineage&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;New, intuitive UI for field level lineage&lt;/li&gt;
+&lt;li&gt;Field level lineage support for more plugins&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Platform enhancements&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Performance improvements across the platform&lt;/li&gt;
+&lt;li&gt;Migration of more UI components from Angular to React&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>News: CDAP 6.0.0: Storage APIs, Portable Runtime and Pipeline enhancements</title>
+      <link>https://gohugo.io/news/6.0.0-relnotes/</link>
+      <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/news/6.0.0-relnotes/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This release introduces a number of new features, improvements, and bug fixes to CDAP. Some of the main highlights of the release are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Storage SPIs&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Storage SPIs provide abstraction for all system storage used by CDAP so that CDAP is more portable across runtime enviroments - Hadoop or Hadoop-free environments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Portable Runtime&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Provide a runtime architecture for CDAP to support both Hadoop and Hadoopless environments, such as Kubernetes, in a distributed and secure fashion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pipeline Enhancements&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Improve experience of building pipelines with the help of features such as copy &amp;amp; paste and minimap of the pipeline. Add support for more data types.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a bug-fix release with a couple of important fixes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;hugofs: Fix mount with hole regression &lt;a href=&#34;https://github.com/gohugoio/hugo/commit/b78576fd38a76bbdaab5ad21228c8e5a559090b1&#34;&gt;b78576fd&lt;/a&gt; &lt;a href=&#34;https://github.com/bep&#34;&gt;@bep&lt;/a&gt; &lt;a href=&#34;https://github.com/gohugoio/hugo/issues/6854&#34;&gt;#6854&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fix bundle resource ordering regression &lt;a href=&#34;https://github.com/gohugoio/hugo/commit/18888e09bbb5325bdd63f2cd93116ff490dd37ab&#34;&gt;18888e09&lt;/a&gt; &lt;a href=&#34;https://github.com/bep&#34;&gt;@bep&lt;/a&gt; &lt;a href=&#34;https://github.com/gohugoio/hugo/issues/6851&#34;&gt;#6851&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CONTRIBUTING: Fix note about CGO &lt;a href=&#34;https://github.com/gohugoio/hugo/commit/7f0ebd4a3c9e016afddc2cf5e7dfe6a820aa099a&#34;&gt;7f0ebd4a&lt;/a&gt; &lt;a href=&#34;https://github.com/moorereason&#34;&gt;@moorereason&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Update Go version requirement &lt;a href=&#34;https://github.com/gohugoio/hugo/commit/23ea43180b84e35d99e88083a83e7ca1916b3b36&#34;&gt;23ea4318&lt;/a&gt; &lt;a href=&#34;https://github.com/bep&#34;&gt;@bep&lt;/a&gt; &lt;a href=&#34;https://github.com/gohugoio/hugo/issues/6853&#34;&gt;#6853&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>News: CDAP 5.1.2: Storage APIs, Portable Runtime and Pipeline enhancements</title>
+      <link>https://gohugo.io/news/5.1.2-relnotes/</link>
+      <pubDate>Sun, 13 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/news/5.1.2-relnotes/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This release introduces a number of new features, improvements, and bug fixes to CDAP. Some of the main highlights of the release are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Storage SPIs&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Storage SPIs provide abstraction for all system storage used by CDAP so that CDAP is more portable across runtime enviroments - Hadoop or Hadoop-free environments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Portable Runtime&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Provide a runtime architecture for CDAP to support both Hadoop and Hadoopless environments, such as Kubernetes, in a distributed and secure fashion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pipeline Enhancements&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Improve experience of building pipelines with the help of features such as copy &amp;amp; paste and minimap of the pipeline. Add support for more data types.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a bug-fix release with a couple of important fixes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;hugofs: Fix mount with hole regression &lt;a href=&#34;https://github.com/gohugoio/hugo/commit/b78576fd38a76bbdaab5ad21228c8e5a559090b1&#34;&gt;b78576fd&lt;/a&gt; &lt;a href=&#34;https://github.com/bep&#34;&gt;@bep&lt;/a&gt; &lt;a href=&#34;https://github.com/gohugoio/hugo/issues/6854&#34;&gt;#6854&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fix bundle resource ordering regression &lt;a href=&#34;https://github.com/gohugoio/hugo/commit/18888e09bbb5325bdd63f2cd93116ff490dd37ab&#34;&gt;18888e09&lt;/a&gt; &lt;a href=&#34;https://github.com/bep&#34;&gt;@bep&lt;/a&gt; &lt;a href=&#34;https://github.com/gohugoio/hugo/issues/6851&#34;&gt;#6851&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CONTRIBUTING: Fix note about CGO &lt;a href=&#34;https://github.com/gohugoio/hugo/commit/7f0ebd4a3c9e016afddc2cf5e7dfe6a820aa099a&#34;&gt;7f0ebd4a&lt;/a&gt; &lt;a href=&#34;https://github.com/moorereason&#34;&gt;@moorereason&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Update Go version requirement &lt;a href=&#34;https://github.com/gohugoio/hugo/commit/23ea43180b84e35d99e88083a83e7ca1916b3b36&#34;&gt;23ea4318&lt;/a&gt; &lt;a href=&#34;https://github.com/bep&#34;&gt;@bep&lt;/a&gt; &lt;a href=&#34;https://github.com/gohugoio/hugo/issues/6853&#34;&gt;#6853&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Showcase: Hapticmedia Blog</title>
+      <link>https://gohugo.io/showcase/hapticmedia/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/showcase/hapticmedia/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://gohugo.io/showcase/hapticmedia/featured_hu4e9c0830eabb70b93572090b79da0c5d_543922_640x0_resize_catmullrom_2.png" width="640" height="320"/>]]>
+        
+        &lt;p&gt;Our goal was to create a simple, effective and multilingual blog on &lt;a href=&#34;https://hapticmedia.fr/blog/en/3d-technology/&#34;&gt;3D technology&lt;/a&gt; that could be managed by a non-technical profile.&lt;/p&gt;
+&lt;h2 id=&#34;why-hugo&#34;&gt;Why Hugo?&lt;/h2&gt;
+&lt;p&gt;Hugo addresses all these needs, coupled with &lt;a href=&#34;https://forestry.io/&#34;&gt;Forestry.io&lt;/a&gt; for its administration via a &amp;ldquo;turnkey&amp;rdquo; interface. We have attached particular importance to SEO, and therefore to the creation of an advanced taxonomy system. Thus, each author and tag has a dedicated page, listing the related posts.&lt;/p&gt;
+&lt;h2 id=&#34;what-we-liked&#34;&gt;What we liked&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;strong&gt;multilingual&lt;/strong&gt; content support, especially simpel to setup.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;multiple environments&lt;/strong&gt; support (develop, staging, test, production, &amp;hellip;).&lt;/li&gt;
+&lt;li&gt;Although a hard start with the Go language, the power of the &lt;strong&gt;Hugo&amp;rsquo;s templating&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;partial layouts&lt;/strong&gt;, including the &lt;code&gt;internals&lt;/code&gt; (e.g. social metas).&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;build time&lt;/strong&gt;, unbeatable ⚡️⚡️⚡️.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tools--workflow&#34;&gt;Tools &amp;amp; workflow&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;We used the same design as &lt;strong&gt;&lt;a href=&#34;https://hapticmedia.fr/en/&#34;&gt;our website&lt;/a&gt;&lt;/strong&gt;, recreated as a Hugo HTML template.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;&lt;/strong&gt; for the static website generator.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://circleci.com&#34;&gt;CircleCI&lt;/a&gt;&lt;/strong&gt; for continuous integration &amp;amp; deployment.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://aws.amazon.com/&#34;&gt;AWS&lt;/a&gt;&lt;/strong&gt; for web hosting.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://forestry.io&#34;&gt;Forestry.io&lt;/a&gt;&lt;/strong&gt; for the content management.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;All of these tools allow our editor to manage the blog&amp;rsquo;s content without having to worry about its technical aspect, which is managed by the developers.&lt;/strong&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>News: CDAP 4.3.4: Major release</title>
+      <link>https://gohugo.io/news/4.3.4/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/news/4.3.4/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This release introduces a number of new features, improvements, and bug fixes to CDAP. Some of the main highlights of the release are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Storage SPIs&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Storage SPIs provide abstraction for all system storage used by CDAP so that CDAP is more portable across runtime enviroments - Hadoop or Hadoop-free environments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Portable Runtime&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Provide a runtime architecture for CDAP to support both Hadoop and Hadoopless environments, such as Kubernetes, in a distributed and secure fashion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pipeline Enhancements&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Improve experience of building pipelines with the help of features such as copy &amp;amp; paste and minimap of the pipeline. Add support for more data types.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a bug-fix release with a couple of important fixes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;hugofs: Fix mount with hole regression &lt;a href=&#34;https://github.com/gohugoio/hugo/commit/b78576fd38a76bbdaab5ad21228c8e5a559090b1&#34;&gt;b78576fd&lt;/a&gt; &lt;a href=&#34;https://github.com/bep&#34;&gt;@bep&lt;/a&gt; &lt;a href=&#34;https://github.com/gohugoio/hugo/issues/6854&#34;&gt;#6854&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fix bundle resource ordering regression &lt;a href=&#34;https://github.com/gohugoio/hugo/commit/18888e09bbb5325bdd63f2cd93116ff490dd37ab&#34;&gt;18888e09&lt;/a&gt; &lt;a href=&#34;https://github.com/bep&#34;&gt;@bep&lt;/a&gt; &lt;a href=&#34;https://github.com/gohugoio/hugo/issues/6851&#34;&gt;#6851&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CONTRIBUTING: Fix note about CGO &lt;a href=&#34;https://github.com/gohugoio/hugo/commit/7f0ebd4a3c9e016afddc2cf5e7dfe6a820aa099a&#34;&gt;7f0ebd4a&lt;/a&gt; &lt;a href=&#34;https://github.com/moorereason&#34;&gt;@moorereason&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Update Go version requirement &lt;a href=&#34;https://github.com/gohugoio/hugo/commit/23ea43180b84e35d99e88083a83e7ca1916b3b36&#34;&gt;23ea4318&lt;/a&gt; &lt;a href=&#34;https://github.com/bep&#34;&gt;@bep&lt;/a&gt; &lt;a href=&#34;https://github.com/gohugoio/hugo/issues/6853&#34;&gt;#6853&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Showcase: Bypass Censorship</title>
+      <link>https://gohugo.io/showcase/bypasscensorship/</link>
+      <pubDate>Sun, 16 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/showcase/bypasscensorship/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://gohugo.io/showcase/bypasscensorship/featured_hu3be69425780460f51f7c2367ed0f80c1_180903_640x0_resize_catmullrom_2.png" width="640" height="533"/>]]>
+        
+        &lt;p&gt;The British Broadcasting Corporation (BBC) (UK), Deutsche Welle (DW) (Germany), France Médias Monde (FMM) (France), the U.S. Agency for Global Media (USAGM) (US) and the Open Technology Fund (OTF) (US) co-sponsor the Bypass Censorship website.&lt;/p&gt;
+&lt;p&gt;Websites of international news agencies are often blocked in many countries. In order to connect people to these sites, Bypass Censorship feature and recommend tools in the following languages: English, French, Spanish, Arabic, Farsi, Chinese, and Russian.&lt;/p&gt;
+&lt;p&gt;One of the tools is the Bypass Censorship Extension for Firefox and Chrome. The extension help direct people to mirrors of partners sites if they are being censored.&lt;/p&gt;
+&lt;p&gt;The first version of the site was built in Drupal 8 but it was relaunched as a static site built with Hugo in 2019.&lt;/p&gt;
+&lt;p&gt;Security, page load time and easy of hosting is the main reasons for switching to a static site. As the lead developer I had good experience with Hugo and was interested in exploring the multilingual features.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s a simply site, basically one page in seven languages. I had no problems getting Hugo to output what I wanted. Found the multilingual support straight forward and easy to work with.&lt;/p&gt;
+&lt;p&gt;Thanks to the design by &lt;a href=&#34;https://www.leylaavsar.com/&#34;&gt;Leyla Avsar&lt;/a&gt; the site also looks good. I used the &lt;a href=&#34;https://github.com/frjo/hugo-theme-zen&#34;&gt;Hugo Zen theme&lt;/a&gt; with a few custom templates and the needed CSS.&lt;/p&gt;
+&lt;p&gt;The editors can maintain content via &lt;a href=&#34;https://forestry.io/&#34;&gt;Forestry.io CMS&lt;/a&gt; or directly via Git. Forestry does unfortunately not have multilingual support. All the language versions are in one pile making it harder to find the right file to edit, but it works.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Showcase: PHARMASEAL</title>
+      <link>https://gohugo.io/showcase/pharmaseal/</link>
+      <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/showcase/pharmaseal/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://gohugo.io/showcase/pharmaseal/featured-pharmaseal_hu0bb31f1d675c2396ecc2e224b6f519a6_769739_640x0_resize_catmullrom_2.png" width="640" height="320"/>]]>
+        
+        &lt;p&gt;We wanted to shake the status quo with PHARMASEAL, opting for a fast and scalable website built with Hugo instead of slower monolithic systems the competitors were using.&lt;/p&gt;
+&lt;p&gt;We had two goals:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Make it fast&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We wanted to optimise the site as much as possible, so we opted for using Cloudinary, enabling us to take advantage of on-the-fly image manipulation, and thanks to the sheer speed of static sites, we achieved a perfect optimisation score with Google audits.&lt;/p&gt;
+&lt;p&gt;Because we&amp;rsquo;re hosting the site through Netlify and our target audience is in America, we are taking advantage of Netlify edge (Their alternative to a CDN). We&amp;rsquo;re talking blazing fast.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Make it easy&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;re big fans of simplicity, and that&amp;rsquo;s what we delivered with the Forestry building blocks. Every element on the site is built with building blocks in mind, allowing PHARMASEAL to generate multiple pages in the blink of an eye.&lt;/p&gt;
+&lt;p&gt;PHARMASEAL have found Forestry CMS combined with HUGO to be so effective at producing fast, purpose driven pages, that we have worked with them to add even more blocks in a scalable, modular fashion.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TLDR:&lt;/strong&gt; We&amp;rsquo;re blown away with HUGO, the sheer speed, scalability and deployment possibilities with Netlify is the 💣&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Showcase: fireship.io</title>
+      <link>https://gohugo.io/showcase/fireship/</link>
+      <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/showcase/fireship/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://gohugo.io/showcase/fireship/featured_hu3bba74627b7e233d29d5aecb29c8d0f1_136959_640x0_resize_catmullrom_2.png" width="640" height="321"/>]]>
+        
+        &lt;p&gt;After careful consideration of JavaScript/JSX-based static site generators, it became clear that Hugo was the only tool capable of handling our project&amp;rsquo;s complex demands. Not only do we have multiple content formats and taxonomies, but we often need to customize the experience at a more granular level. The problems Hugo has solved for us include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Render speed.&lt;/strong&gt; We know from past experience that JavaScript-based static site generators become very slow when you have thousands of pages and images.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feature-rich.&lt;/strong&gt; Our site has a long list of specialized needs and Hugo somehow manages to cover every single use case.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Composability.&lt;/strong&gt; Hugo&amp;rsquo;s partial and shortcode systems empower us to write DRY and maintainable templates.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simplicity.&lt;/strong&gt; Hugo is easy to learn (even without Go experience) and doesn&amp;rsquo;t burden us with brittle dependencies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The site is able to achieve Lighthouse performance scores of 95+, despite the fact that it is a fully interactive PWA that ships Angular and Firebase in the JS bundle. This is made possible by (1) prerendering content with Hugo and (2) lazily embedding native web components directly in the HTML and markdown. We provide a &lt;a href=&#34;https://youtu.be/gun8OiGtlNc&#34;&gt;detailed explanation&lt;/a&gt; of the architecture on YouTube and can&amp;rsquo;t imagine development without Hugo.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Showcase: Over</title>
+      <link>https://gohugo.io/showcase/over/</link>
+      <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/showcase/over/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://gohugo.io/showcase/over/featured-over_hu096cafb8a4c371f6c5d5431b68c2978f_194841_640x0_resize_catmullrom_2.png" width="640" height="320"/>]]>
+        
+        &lt;p&gt;At Over we&amp;rsquo;re into creativity, and technology should not get in the way. We want it to be easy for everyone to create, and Hugo does the same for us. That&amp;rsquo;s one of the reasons many of us are fond of using it.&lt;/p&gt;
+&lt;p&gt;People from all disciplines contribute to our website, be it legal documentation, layout and design, recruiting, marketing and of course… engineering. Hugo allows us to do this with as little friction as possible. A lot of this comes down to Hugo being distributed as a single static binary. Copy, paste, run&amp;hellip; and you&amp;rsquo;re up and running!&lt;/p&gt;
+&lt;p&gt;We use &lt;a href=&#34;https://www.wercker.com/&#34;&gt;Wercker&lt;/a&gt; for continuous integration and deployments, &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt; for contributing to and writing markdown and &lt;a href=&#34;https://firebase.google.com/docs/hosting/&#34;&gt;Firebase&lt;/a&gt; for hosting.&lt;/p&gt;
+&lt;p&gt;This infrastructure takes all the pressure off our engineers, anyone can contribute to our website. Anyone else can review the changes, and of course anyone with permission can deploy those approved changes as well!&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;re busy working on a few new features for our website, and Hugo continues to deliver above and beyond. We&amp;rsquo;re so happy with the choice we made to use Hugo and to us it has become the de-facto static site generator.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Showcase: Cocoon &amp; Cosy</title>
+      <link>https://gohugo.io/showcase/arolla-cocoon/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/showcase/arolla-cocoon/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://gohugo.io/showcase/arolla-cocoon/featured-template_hu22aab819ab27e4f878d1ff0b7cf78050_451984_640x0_resize_catmullrom_2.png" width="640" height="353"/>]]>
+        
+        &lt;p&gt;Swiss &lt;a href=&#34;http://www.camping-arolla.com/&#34;&gt;Arolla campsite&lt;/a&gt; runs the highest campsite in Europe and I&amp;rsquo;m completely re-doing their actuel Website with Hugo.&lt;/p&gt;
+&lt;p&gt;But they just launch a brand new offer (luxury tents with bed and fire oven), and we couldn&amp;rsquo;t wait for the proper new website for having this promoted: we needed the website up and running within 24h!&lt;/p&gt;
+&lt;p&gt;So we decided to quickly launch a dedicated &lt;a href=&#34;https://www.cocoon-arolla.com&#34;&gt;independent web site&lt;/a&gt; using all the powerful tools included with &lt;a href=&#34;https://gohugo.io&#34;&gt;gohugo.io&lt;/a&gt; and some things we already knew &amp;amp; used:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Choose a spectacular landing theme in the rich &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;Hugo Themes&lt;/a&gt; collection : &lt;a href=&#34;https://themes.gohugo.io/airspace-hugo/&#34;&gt;Airspace Theme&lt;/a&gt; by Themefisher.&lt;/li&gt;
+&lt;li&gt;Replace the main images.&lt;/li&gt;
+&lt;li&gt;Add a &lt;a href=&#34;https://github.com/liwenyip/hugo-easy-gallery&#34;&gt;hugo-easy-gallery / photoswipe&lt;/a&gt; on the main page with attractive images.&lt;/li&gt;
+&lt;li&gt;Add the promo video with a simple &lt;em&gt;vimeo&lt;/em&gt; shortcode.&lt;/li&gt;
+&lt;li&gt;Replace the Google Maps widget by the &lt;a href=&#34;http://www.openstreetmap.org/&#34;&gt;OpenStreetMap&lt;/a&gt; equivalent&lt;/li&gt;
+&lt;li&gt;Use a &lt;a href=&#34;http://www.zotabox.com&#34;&gt;Zotabox&lt;/a&gt; contact form.&lt;/li&gt;
+&lt;li&gt;Write the content in French &amp;amp; in English directly on the content pages, describe their services, add fun facts and true testimonies.&lt;/li&gt;
+&lt;li&gt;Setup a GDPR compliant site with the new Hugo options.&lt;/li&gt;
+&lt;li&gt;Use &lt;a href=&#34;https://www.netlify.com&#34;&gt;Netlify&lt;/a&gt; for publishing it in a breeze.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The first version was up in 4 hours, and the polished 2 languages version was published on Netlify the next day.&lt;/p&gt;
+&lt;p&gt;This would have been impossible to do it in such a short time without all the powerful Hugo tools and Netlify simplicity.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Showcase: Tomango</title>
+      <link>https://gohugo.io/showcase/tomango/</link>
+      <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/showcase/tomango/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://gohugo.io/showcase/tomango/featured_hu7e8dbbadbe427cdae3bd5ec313fc9f75_143336_640x0_resize_catmullrom_2.png" width="640" height="320"/>]]>
+        
+        &lt;p&gt;Hugo is our static site generator (SSG) of choice. It&amp;rsquo;s &lt;strong&gt;really quick&lt;/strong&gt;. After using it on a number of &lt;a href=&#34;https://gohugo.io/showcase/hartwell-insurance/&#34;&gt;client projects&lt;/a&gt;, it became clear that our new site &lt;em&gt;had&lt;/em&gt; to be built with Hugo.&lt;/p&gt;
+&lt;p&gt;The big benefit of an SSG is how it moves all the heavy lifting to the build time.&lt;/p&gt;
+&lt;p&gt;For example in WordPress, all the category pages are created at runtime, generating a lot of database queries. In Hugo, the paginated category pages are created at build time - so all the computational complexity is done once, and doesn&amp;rsquo;t impact the user at all.&lt;/p&gt;
+&lt;p&gt;Similarly, instead of running a live, or even a heavily cached Instagram feed that checked for new photos on page load, we used IFTTT to flip the feature to work performantly. I&amp;rsquo;ve &lt;a href=&#34;https://www.trysmudford.com/blog/making-the-static-dynamic-instagram-importer/&#34;&gt;written about it&lt;/a&gt; in detail on my blog but in essence: IFTTT sends a webhook to a Netlify Cloud Function every time a photo is uploaded. The function scrapes the photo and commits it to our GitHub repo which triggers a Hugo build on Netlify, deploying the site immediately!&lt;/p&gt;
+&lt;p&gt;Shortcodes allow copy editors to continue using WordPress-esque features, Markdown keeps our developers happy, and our users don&amp;rsquo;t have any of the database overheads. It&amp;rsquo;s win-win!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;This is an extract from our &lt;a href=&#34;https://www.tomango.co.uk/thinks/tomango-progressive-web-app/&#34;&gt;technical launch post&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Showcase: Flesland Flis AS</title>
+      <link>https://gohugo.io/showcase/flesland-flis/</link>
+      <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/showcase/flesland-flis/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://gohugo.io/showcase/flesland-flis/featured_hue4fd3c0e7519777bd75019750a0f5391_309284_640x0_resize_catmullrom_2.png" width="640" height="320"/>]]>
+        
+        &lt;p&gt;For &lt;strong&gt;Flesland Flis&lt;/strong&gt; I use a combination of &lt;strong&gt;Hugo, Forestry.io and Netlify&lt;/strong&gt;. Static Site Generators and Hugo has been on my radar for a long time, and with all the nice features released in Hugo the last years, it&amp;rsquo;s now my preferred solution for new clients. Also a huge thanks to the guys at &lt;a href=&#34;https://forestry.io&#34;&gt;Forestry.io&lt;/a&gt;, for making such a smooth CMS for Hugo.&lt;/p&gt;
+&lt;p&gt;The #1 reason why I love Hugo is the logic between content and layout, and of course the speed. Compared to solutions like Jekyll, Hugo is just better at all the stuff I value the most - speed, flexibility, theming and more.&lt;/p&gt;
+&lt;h3 id=&#34;thanks-hugo&#34;&gt;Thanks, Hugo!&lt;/h3&gt;
+&lt;p&gt;Today I use Hugo in a combination with GULP and Foundation 6 + my own Hugo starter theme. This works great for me, and gives me all the flexibility I need. Then I can include FancyBox, Responsive Text and other Node Modules when needed.&lt;/p&gt;
+&lt;p&gt;In the past I had to do a lot of changes to layout, content and css, if the client f.ex needed an extra PDF or an image-gallery to a certain page. Just small details not fitting in the template, would be a hassle. So updating existing webpages was boring and time consuming.&lt;/p&gt;
+&lt;p&gt;Today I just copy-paste a new layout file, adds some frontmatter, Pushes to GIT and that special page is done.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Gotta love it:)&lt;/strong&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Showcase: Forestry.io</title>
+      <link>https://gohugo.io/showcase/forestry/</link>
+      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/showcase/forestry/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://gohugo.io/showcase/forestry/featured_hu77de7d99834fa13b854b7fc62e2912a7_227009_640x0_resize_catmullrom_2.png" width="640" height="320"/>]]>
+        
+        &lt;p&gt;It was clear from the get-go that we had to go with a static site generator. Static sites are secure, performant, and give you 100% flexibility. At &lt;a href=&#34;https://forestry.io/&#34;&gt;Forestry.io&lt;/a&gt; we provide Content Management Solutions for websites built with static site generators, so we might be a little biased. The only question: Which static site generator was the right choice for us?&lt;/p&gt;
+&lt;h3 id=&#34;why-hugo&#34;&gt;Why Hugo?&lt;/h3&gt;
+&lt;p&gt;In our early research we looked at Ionic’s &lt;a href=&#34;https://github.com/ionic-team/ionic&#34;&gt;site&lt;/a&gt; to get some inspiration. They used Jekyll to build their website. While Jekyll is a great generator, the build times for larger sites can be painfully slow. With more than 150 pages plus many custom configurations and add-ons, our website doesn’t fall into the low-volume category anymore. Our developers want a smooth experience when working on the website and our content editors need the ability to preview content quickly. In short, we need our builds to be lightning fast.&lt;/p&gt;
+&lt;p&gt;We knew Hugo was fast but we did &lt;a href=&#34;https://forestry.io/blog/hugo-vs-jekyll-benchmark/&#34;&gt;some additional benchmarking&lt;/a&gt; before making our decision. Seeing Hugo in action is a whole different world of awesome. Hugo takes less than one second to build our 150-page site! Take a look:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;                   &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; EN   
++------------------+-----+
+  Pages            &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;141&lt;/span&gt;  
+  Paginator pages  &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;   &lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;  
+  Non-page files   &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;   &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;  
+  Static files     &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;537&lt;/span&gt;  
+  Processed images &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;   &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;  
+  Aliases          &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;  &lt;span class=&#34;m&#34;&gt;60&lt;/span&gt;  
+  Sitemaps         &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;   &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;  
+  Cleaned          &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;   &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;  
+
+Total in &lt;span class=&#34;m&#34;&gt;739&lt;/span&gt; ms
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In fact, we liked Hugo so much that our wizard Chris made his workflow public and we started the open-source project &lt;a href=&#34;https://github.com/forestryio/create-static-site&#34;&gt;Create-Static-Site&lt;/a&gt;. It&amp;rsquo;s &lt;a href=&#34;https://forestry.io/blog/up-and-running-with-hugo/&#34;&gt;a simple way to spin up sites&lt;/a&gt; and set up a modern web development workflow with one line of code. Essentially it adds build configurations as a dependency for JS, CSS and Image Processing.&lt;/p&gt;
+&lt;p&gt;Lastly, we want to take the opportunity to give some love to other amazing tools we used building our website.&lt;/p&gt;
+&lt;h3 id=&#34;what-tools-did-we-use&#34;&gt;What tools did we use?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Our Norwegian designer Nichlas is in love with &lt;a href=&#34;https://www.sketchapp.com/&#34;&gt;&lt;strong&gt;Sketch&lt;/strong&gt;&lt;/a&gt;. From what we hear it’s a designer’s dream come true.&lt;/li&gt;
+&lt;li&gt;Some say our main graphic is &lt;a href=&#34;https://twitter.com/hmncllctv/status/968907474664284160&#34;&gt;mesmerizing&lt;/a&gt;. Nichlas created it using &lt;a href=&#34;https://www.autodesk.com/products/3ds-max/overview&#34;&gt;&lt;strong&gt;3DS Max&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;&lt;strong&gt;Hugo&lt;/strong&gt;&lt;/a&gt; &amp;ndash; of course.&lt;/li&gt;
+&lt;li&gt;Chris can’t think of modern web development without &lt;a href=&#34;https://gulpjs.com/&#34;&gt;&lt;strong&gt;Gulp&lt;/strong&gt;&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://webpack.js.org/&#34;&gt;&lt;strong&gt;Webpack&lt;/strong&gt;&lt;/a&gt;. We used them to add additional build steps such as Browsersync, CSS, JS and SVG optimization.&lt;/li&gt;
+&lt;li&gt;Speaking about adding steps to our build, our lives would be much harder without &lt;a href=&#34;https://circleci.com/&#34;&gt;&lt;strong&gt;CircleCI&lt;/strong&gt;&lt;/a&gt; for continuous deployment and automated testing purposes.&lt;/li&gt;
+&lt;li&gt;We can’t stop raving about &lt;a href=&#34;https://www.algolia.com/&#34;&gt;&lt;strong&gt;Algolia&lt;/strong&gt;&lt;/a&gt;. Chris loves it and even wrote a tutorial on &lt;a href=&#34;https://forestry.io/blog/search-with-algolia-in-hugo/&#34;&gt;how to implement Algolia&lt;/a&gt; into static sites using Hugo’s &lt;a href=&#34;https://gohugo.io/templates/output-formats/&#34;&gt;Custom Outputs&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudinary.com/&#34;&gt;&lt;strong&gt;Cloudinary&lt;/strong&gt;&lt;/a&gt; is probably one of the easiest ways to get responsive images into your website.&lt;/li&gt;
+&lt;li&gt;We might be a little biased on this one - We think &lt;a href=&#34;https://forestry.io/&#34;&gt;&lt;strong&gt;Forestry.io&lt;/strong&gt;&lt;/a&gt; is a great way to add a content management system with a clean UI on top of your site without interrupting your experience as a developer.&lt;/li&gt;
+&lt;li&gt;For hosting purposes we use the almighty &lt;a href=&#34;https://aws.amazon.com/&#34;&gt;&lt;strong&gt;AWS&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://formspree.io/&#34;&gt;&lt;strong&gt;Formspree.io&lt;/strong&gt;&lt;/a&gt; is managing our support and enterprise requests.&lt;/li&gt;
+&lt;li&gt;We also use browser cookies and JS to customize our user’s experience and give it a more dynamic feel.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Showcase: Let’s Encrypt</title>
+      <link>https://gohugo.io/showcase/letsencrypt/</link>
+      <pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/showcase/letsencrypt/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://gohugo.io/showcase/letsencrypt/featured_hu51cfa254cfc1fb105704d2cdd6ae4737_147459_640x0_resize_catmullrom_2.png" width="640" height="320"/>]]>
+        
+        &lt;p&gt;The &lt;strong&gt;Let’s Encrypt website&lt;/strong&gt; has a common set of elements: A landing page and some other static info-pages, a document section, a blog, and a documentation section. Having it moved to Hugo was mostly motivated by a &lt;em&gt;simpler administration and Hugo&amp;rsquo;s &lt;a href=&#34;https://gohugo.io/content-management/multilingual/&#34;&gt;multilingual support&lt;/a&gt;&lt;/em&gt;. They already serve HTTPS to more than 60 million domains, and having the documentation available in more languages will increase that reach.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;The Let&amp;#39;s Encrypt website is now built with &lt;a href=&#34;https://twitter.com/GoHugoIO?ref_src=twsrc%5Etfw&#34;&gt;@GoHugoIO&lt;/a&gt;, easing management and giving us access to more features. Thanks to &lt;a href=&#34;https://twitter.com/domeneshop?ref_src=twsrc%5Etfw&#34;&gt;@domeneshop&lt;/a&gt; for supporting this work through a Let&amp;#39;s Encrypt sponsorship and to &lt;a href=&#34;https://twitter.com/bepsays?ref_src=twsrc%5Etfw&#34;&gt;@bepsays&lt;/a&gt; for the migration work!&lt;/p&gt;&amp;mdash; Let&amp;#39;s Encrypt (@letsencrypt) &lt;a href=&#34;https://twitter.com/letsencrypt/status/971755920639307777?ref_src=twsrc%5Etfw&#34;&gt;March 8, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;I helped them port the site from Jekyll to Hugo. There are usually very few surprises doing this. I know Hugo very well, but working on sites with a history usually comes up with something new.&lt;/p&gt;
+&lt;p&gt;That site is bookmarked in many browsers, so preserving the URLs was a must. Hugo&amp;rsquo;s URL handling is very flexible, but there was one challenge. The website has a mix of standard and what we in Hugo call &lt;em&gt;ugly URLs&lt;/em&gt; (&lt;code&gt;https://letsencrypt.org/2017/12/07/looking-forward-to-2018.html&lt;/code&gt;). In Hugo this is handled automatically, and you can turn it on globally or per language. But before Hugo &lt;code&gt;0.33&lt;/code&gt; you could not configure it for parts of your site. You could set it manually for the relevant pages in front matter &amp;ndash; which is how it was done in Jekyll &amp;ndash; but that would be hard to manage, especially when you start to introduce translations. So, in &lt;a href=&#34;https://gohugo.io/news/0.33-relnotes/&#34;&gt;Hugo 0.33&lt;/a&gt; I added support for &lt;em&gt;ugly URLs&lt;/em&gt; per section and also &lt;code&gt;url&lt;/code&gt; set in front matter for list pages (&lt;code&gt;https://letsencrypt.org/blog/&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;The lessons learned from this also lead to &lt;a href=&#34;https://gohugo.io/content-management/multilingual/#disable-a-language&#34;&gt;disableLanguages&lt;/a&gt; in Hugo &lt;code&gt;0.34&lt;/code&gt; (a way to turn off languages during translation). And I also registered &lt;a href=&#34;https://github.com/gohugoio/hugo/issues/4463&#34;&gt;this issue&lt;/a&gt;. Once fixed it will make it easier to handle partially translated sites.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;The work on getting the content translated is in progress. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Showcase: 1Password Support</title>
+      <link>https://gohugo.io/showcase/1password-support/</link>
+      <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/showcase/1password-support/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://gohugo.io/showcase/1password-support/featured_hu870838c23243880857c2e418dd7ac099_165718_640x0_resize_catmullrom_2.png" width="640" height="319"/>]]>
+        
+        &lt;p&gt;At 1Password, we used to go through a different documentation platform every month: blog engines, ebooks, wikis, site generators written in Ruby and JavaScript. Each was inadequate in its own special way. Then we found &lt;strong&gt;Hugo&lt;/strong&gt;. We made one last switch, and we&amp;rsquo;re glad we did.&lt;/p&gt;
+&lt;h3 id=&#34;not-all-static-site-generators-are-created-equal&#34;&gt;Not all static site generators are created equal&lt;/h3&gt;
+&lt;p&gt;Finding a tool that will make your customers, writers, designers, &lt;em&gt;and&lt;/em&gt; DevOps team happy is no easy task, but we managed it with Hugo:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hugo is static&lt;/strong&gt;. We&amp;rsquo;re a security company, so we swear by static sites and use them wherever possible. We feel much safer pointing customers at HTML files than at a complicated server which needs to be hardened.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hugo is Go&lt;/strong&gt;. We love the Go programming language at 1Password, and we were delighted to learn that Hugo used the same Go template syntax that our designers and front-end developers had already mastered.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hugo is FAST&lt;/strong&gt;. Our previous static site generator took nearly a minute to compile our (then much smaller) site. Developers might be used to this, but it wasn&amp;rsquo;t cutting it for writers who wanted to see live previews of their work. Hugo did the same job in milliseconds, and to this day compiles 400 pages in five languages in the blink of an eye.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hugo is flexible&lt;/strong&gt;. Thanks to Hugo&amp;rsquo;s content and layout system, we were able to preserve our existing file and folder structure and port our entire production site in a few days. We could then create new content types that weren&amp;rsquo;t possible before, like these snazzy &lt;a href=&#34;https://support.1password.com/explore/extension/&#34;&gt;showcases&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hugo is great for writers&lt;/strong&gt;. Our documentation team was already comfortable with Markdown and Git and could start creating content for Hugo with zero downtime. Once we added shortcodes, our writers were able to dress up articles with features like  &lt;a href=&#34;https://support.1password.com/get-the-apps/&#34;&gt;platform boxes&lt;/a&gt; with just a bit of new syntax.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hugo has an amazing developer community&lt;/strong&gt;. Hugo updates are frequent and filled to the brim with features and fixes. As we developed the multilingual version of our site, we submitted PRs for features we needed and were helped through the process by &lt;a href=&#34;https://github.com/bep&#34;&gt;@bep&lt;/a&gt; and others.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hugo is simple to deploy&lt;/strong&gt;. Hugo has just the right amount of configuration options to fit into our build system without being too complicated.&lt;/p&gt;
+&lt;h3 id=&#34;tech-specs&#34;&gt;Tech specs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://support.1password.com&#34;&gt;1Password Support&lt;/a&gt; uses Hugo with a custom theme. It shares styles and some template code with &lt;a href=&#34;https://1password.com&#34;&gt;1Password.com&lt;/a&gt;, which we also moved to Hugo in 2016.&lt;/li&gt;
+&lt;li&gt;Code and articles live in a private GitHub repository, which is deployed to a static content server using Git hooks.&lt;/li&gt;
+&lt;li&gt;Writers build and preview the site on their computers and contribute content using pull requests.&lt;/li&gt;
+&lt;li&gt;We use Hugo&amp;rsquo;s &lt;a href=&#34;https://gohugo.io/content-management/multilingual/&#34;&gt;multilingual support&lt;/a&gt; to build the site in English, Spanish, French, Italian, German, and Russian. With the help of Hugo, 1Password Support became our very first site in multiple languages.&lt;/li&gt;
+&lt;li&gt;Our &lt;a href=&#34;https://support.1password.com/contact&#34;&gt;contact form&lt;/a&gt; is a single-page React app. We were able to integrate it with Hugo seamlessly thanks to its support for static files.&lt;/li&gt;
+&lt;li&gt;The one part of the support site which is not static is our search engine, which we developed with Elasticsearch and host on AWS.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Showcase: StackImpact</title>
+      <link>https://gohugo.io/showcase/stackimpact/</link>
+      <pubDate>Tue, 20 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/showcase/stackimpact/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://gohugo.io/showcase/stackimpact/featured_hu863cdba7b6e18bb95f64289a25912f5c_153794_640x0_resize_catmullrom_2.png" width="640" height="320"/>]]>
+        
+        &lt;p&gt;After gradually handing over the control of our website to WordPress plugins, we realized that we needed to act.&lt;/p&gt;
+&lt;p&gt;Static web sites have natural advantages such as security, performance and content versioning (e.g. with Git). Static site generators such as Hugo made static websites cool again. Importantly, the best practices of software development (e.g. peer reviews, multi-stage deployments, rollbacks) can now be easily applied to websites.&lt;/p&gt;
+&lt;p&gt;Besides the blog and documentation sections, our website needed custom sections with own templates. Hugo supported it beautifully.&lt;/p&gt;
+&lt;p&gt;Hugo is written in Go language and uses Go templates. StackImpact is a performance profiler that has an advanced support for Go applications. Being aware of the advantages of Go in terms of speed and productivity, this was another strong reason for choosing Hugo.&lt;/p&gt;
+&lt;p&gt;Thanks to all Hugo contributors for making such a beautiful and fast site generator!&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Showcase: Quiply Employee Communications App</title>
+      <link>https://gohugo.io/showcase/quiply-employee-communications-app/</link>
+      <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/showcase/quiply-employee-communications-app/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://gohugo.io/showcase/quiply-employee-communications-app/featured_hua0e0d1ed0f0bc15921e78476b0c86c95_631206_640x0_resize_catmullrom_2.png" width="640" height="320"/>]]>
+        
+        &lt;p&gt;With the launch of our Employee Communications app Quiply we created a very simple and static one-page website to showcase our product.&lt;/p&gt;
+&lt;p&gt;As our customer base and demand for marketing and communication started to grow, we needed a solution to easily grow and extend the contents of our web presence. As we do not have the need to serve dynamic content, we decided to use a static site generator. Amongst a couple of others, we tried Hugo and it became immediately clear that we&amp;rsquo;d use Hugo going forward as it compiles super-fast, is intuitive to use and offers all the features we need.&lt;/p&gt;
+&lt;p&gt;Our website which we launched a couple of weeks ago is still growing and new content is being added constantly. By using Hugo, this can be easily done by content authors writing markdown files without always having to touch HTML or CSS code. It is available in German only for the time being, an English version is in the works.&lt;/p&gt;
+&lt;p&gt;Huge thanks to everyone involved in making Hugo a success.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Showcase: Linode Docs</title>
+      <link>https://gohugo.io/showcase/linode/</link>
+      <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/showcase/linode/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://gohugo.io/showcase/linode/featured_hu61409040ff547ff1513ae0ebae4096c4_90149_640x0_resize_catmullrom_2.png" width="640" height="320"/>]]>
+        
+        &lt;p&gt;The documentation team at Linode has been writing guides since 2009, with the goal of helping new and experienced Linux users find the best tools and get the most out of their systems.&lt;/p&gt;
+&lt;p&gt;As our library grew into thousands of guides, we needed a fast static site generator with intuitive templating and the flexibility to extend Markdown without constantly writing HTML and CSS.&lt;/p&gt;
+&lt;p&gt;Hugo solved a lot of our growing pains with features like shortcodes, customizable URLs, LiveReload, and more. We have already brought our site build time down from minutes to just a few seconds, and we are excited to see what future developments in Hugo will bring.&lt;/p&gt;
+&lt;p&gt;Thank you to all the &lt;a href=&#34;https://github.com/gohugoio/hugo/graphs/contributors&#34;&gt;Hugo contributors&lt;/a&gt; and  especially &lt;a href=&#34;https://github.com/bep&#34;&gt;@bep&lt;/a&gt; for helping us with the adoption of Hugo.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Showcase: Hartwell Insurance</title>
+      <link>https://gohugo.io/showcase/hartwell-insurance/</link>
+      <pubDate>Fri, 09 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/showcase/hartwell-insurance/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://gohugo.io/showcase/hartwell-insurance/featured_hu642e730c6f819b15fc6ebbaa25b0243f_446603_640x0_resize_catmullrom_2.png" width="640" height="320"/>]]>
+        
+        &lt;p&gt;We’ve just launched a shiny new website for &lt;a href=&#34;https://www.hartwell-insurance.com/&#34;&gt;Hartwell Insurance&lt;/a&gt; – I’m really proud of it. It was tackled in a different way to most previous Tomango site builds, using some fancy new tools and some vintage web standards.&lt;/p&gt;
+&lt;p&gt;It’s a multi-page, single-page (!) website written in Hugo, a static site generator built with performance as a first-class feature. &lt;em&gt;I’ve outlined a load of benefits to Hugo &amp;amp; static sites &lt;a href=&#34;https://why-static.netlify.com/&#34;&gt;here&lt;/a&gt;, in case you’re interested.&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;In essence, a static site generator pre-renders the whole site into HTML files and serves them like it’s 1995.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;There’s no Apache or Node backend that does compilation at runtime, it’s all done at the build step. This means the server; Netlify in this case, only has to do one thing – serve files. Unsurprisingly, serving simple files is VERY quick.&lt;/p&gt;
+&lt;p&gt;The starter point was the &lt;a href=&#34;https://github.com/netlify/victor-hugo&#34;&gt;Victor Hugo&lt;/a&gt; repository that Netlify have created. It let me dive in with Hugo, PostCSS, BrowserSync and ES6 without setting up any tooling myself – always a win!&lt;/p&gt;
+&lt;p&gt;I then took all the content from the design file and moved it into Markdown, putting shortcodes in where necessary. This site did need a number of custom shortcodes for the presentational elements like the expanding circles and full width backgrounds. But mostly it was just clean, semantic HTML with some CSS and JS enhancement thrown in.&lt;/p&gt;
+&lt;p&gt;For example, this two column layout shown below. I used CSS Columns with a  &lt;code&gt;break-after: always;&lt;/code&gt; on the &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;. No multi-wrapper or difficult-to-clear shortcodes, just clean HTML.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;hartwell-columns.png&#34; alt=&#34;The multi-column setup on Hartwell Insurance&#34;&gt;&lt;/p&gt;
+&lt;p&gt;For the ripple effects on the section headings, I used JS to prepend a &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; element then animated it with &lt;code&gt;RequestAnimationFrame&lt;/code&gt;. It adds a nice bit of movement on the page.&lt;/p&gt;
+&lt;p&gt;On the &lt;a href=&#34;https://www.hartwell-insurance.com/profitmaker/&#34;&gt;Hartwell Profitmaker&lt;/a&gt; section, I toyed with the idea of using Vue.js for the calculator, but after giving it some thought, I decided to code in Vanilla. The result, all of the site JS comes in at 3.2KB!&lt;/p&gt;
+&lt;p&gt;The plan was to host with Netlify and therefore get access to Netlify Forms. It meant spending 0 minutes on getting a backend set up – I could focus fully on the frontend.&lt;/p&gt;
+&lt;p&gt;Cache invalidation isn’t normally something I spend all that much time thinking about when building a site. But as this site was going to be a Progressive Web App, invalidating files would be important to ensure the site didn’t appear broken when we made changes. As I was using Victor-Hugo, I wasn’t really sure how to best tackle this and sadly spent far too many hours wrangling with Webpack and Gulp files to try and get hashed file names working nicely.&lt;/p&gt;
+&lt;p&gt;Then; while I was waiting for a haircut, I read a &lt;a href=&#34;https://www.netlify.com/blog/2017/02/23/better-living-through-caching/&#34;&gt;Netlify blog post&lt;/a&gt; on how they do cache invalidation with HTTP2 and it promptly blew my mind.&lt;/p&gt;
+&lt;p&gt;When you request an asset, they send an ETag in the headers which is a hash of the file. There’s also a header to tell the browser not to trust it’s own cache (which sounds a little bit bonkers).&lt;/p&gt;
+&lt;p&gt;So when you request the page, it opens a persistent HTTP2 connection up (so no new connections for file requests). When it gets to requesting that asset, the browser sends the ETag back to Netlify and they either return nothing if the ETag matches, or the new file with the new ETag. No &lt;code&gt;app.klfjlkdsfjdslkfjdslkfdsj.js&lt;/code&gt; or &lt;code&gt;app.js?v=20180112&lt;/code&gt;. Just a clean &lt;code&gt;app.js&lt;/code&gt; with instant cache invalidation. Amazing.&lt;/p&gt;
+&lt;p&gt;Finally, the &lt;a href=&#34;https://www.hartwell-insurance.com/sw.js&#34;&gt;Service Worker&lt;/a&gt; could be added. This turned out to be straightforward as the Netlify cache invalidation system solved most of the pain points. I went for a network-first, cache-fallback setup for both assets and HTML. This does mean flaky speeds are reliant on the page connection time, but given we’re on HTTP2, I’m hoping the persistent connection and tiny ETag size will keep it quick. For online connections, every request is up to date and instantly live after any update. Offline connections fall back to every assets’ last cached state. It seems to work really nicely, and there’s no need for an update prompt if assets have changed.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;the-results&#34;&gt;The results&lt;/h2&gt;
+&lt;p&gt;The WebPageTest results are looking good. The speed index is 456, 10x smaller than the average Alexa top 300,000 score.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;hartwell-webpagetest.png&#34; alt=&#34;WebPageTest results&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://testmysite.io/5a7e1bb2df99531a23c9ad2f/hartwell-insurance.com&#34;&gt;TestMySite.io&lt;/a&gt; is return ~2ms time to first byte from the CDN edge nodes. Lighthouse audits are also very promising. There’s still some improvement to be gained lazy-loading the images and inlining the CSS. I’m less excited about the &lt;a href=&#34;http://www.trysmudford.com/css-in-2017/&#34;&gt;second suggestion&lt;/a&gt;, but I’ll certainly look at some lazy-loading, especially as I’m already using &lt;code&gt;IntersectionObserver&lt;/code&gt; for some animations.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;hartwell-lighthouse.png&#34; alt=&#34;Lighthouse results&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The most encouraging result is how quick the site is around the world. Most Tomango clients (and their customers) are pretty local and almost exclusively UK-based. We have a dedicated server in Surrey that serves our market pretty well. It did take me by surprise just how much slower a connection from the USA, Australia and Japan to our server was. They’re waiting ~500ms just for the first byte, let alone downloading each asset.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.hartwell-insurance.com/&#34;&gt;Hartwell Insurance&lt;/a&gt; are a US company so by putting them on our server, we’d be instantly hampering their local response times by literally seconds. This was one of the main reasons for going with Netlify. They provide global CDN hosting that’s quick from anywhere in the world.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;This project was such a blast to develop, it’s a real pleasure to put new technologies to good use in production, and to see real performance and usability benefits from them. Even using classic web methods of serving folders with files is fun when you’ve been databasing for a while – there’s something really ‘pure’ about it.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;This was originally posted on &lt;a href=&#34;http://www.trysmudford.com/perfomance-wins-with-hugo-and-netlify/&#34;&gt;my website&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Showcase: Pace Revenue Management</title>
+      <link>https://gohugo.io/showcase/pace-revenue-management/</link>
+      <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/showcase/pace-revenue-management/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://gohugo.io/showcase/pace-revenue-management/featured_hu143b6afebcd8780a08aa0a9f8e95dd02_298908_640x0_resize_catmullrom_2.png" width="640" height="320"/>]]>
+        
+        &lt;p&gt;From the beginning, at Pace, we were focused on solving customer needs and didn&amp;rsquo;t want to over-engineer our marketing or sales. At the same time we didn&amp;rsquo;t want to lock ourselves into a Wordpress, Squarespace or the like.&lt;/p&gt;
+&lt;p&gt;The ideal was a fast, simple, static site builder. When we came across Hugo we were blown away. Being a European company we wanted to be multi-lingual from the get-go and allow multiple team-members to collaborate and own their content. We also felt that a tech-company in 2018 should be capable of hosting its own blog in a simple way.&lt;/p&gt;
+&lt;p&gt;Here was Hugo, that allowed us to completely separate content from layout. Our sales-team edit a markdown-file, the engineers commit and off we go &amp;ndash; immediately deployable or pre-viewable.&lt;/p&gt;
+&lt;p&gt;The only other way to have all that Hugo offers is to go down the full rabbit-hole of building your own server-side React or some such. Possibly Jekyll but again very complex to work with. The alternatives come with too much work for what should be quite simple.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hugo + Gulp + Netlify for the win! Don&amp;rsquo;t over engineer your web presence!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Huge thanks to &lt;a href=&#34;https://github.com/bep&#34;&gt;@bep&lt;/a&gt; and &lt;a href=&#34;https://discourse.gohugo.io/&#34;&gt;community&lt;/a&gt; for Hugo.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Showcase: Hugo Showcase Template</title>
+      <link>https://gohugo.io/showcase/template/</link>
+      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/showcase/template/</guid>
+      <description>
+        
+        
+        
+        <![CDATA[<img src="https://gohugo.io/showcase/template/featured-template_hu2f0d11388f944348b232a431caeb965b_41270_640x0_resize_catmullrom_2.png" width="640" height="320"/>]]>
+        
+        &lt;p&gt;Have a &lt;strong&gt;notable Hugo site&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/strong&gt;? We would love to feature it in this &lt;strong&gt;Showcase Section&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We would really appreciate if you could:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Fork &lt;a href=&#34;https://github.com/gohugoio/hugoDocs&#34;&gt;https://github.com/gohugoio/hugoDocs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Run &lt;code&gt;hugo new showcase/your-site&lt;/code&gt; (this requires &amp;gt;= Hugo 0.49). This will use the archetype bundle in the &lt;a href=&#34;https://github.com/gohugoio/hugoDocs/tree/master/archetypes&#34;&gt;docs repo&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Follow the instructions in the newly created page bundle.&lt;/li&gt;
+&lt;li&gt;Create a new pull request in &lt;a href=&#34;https://github.com/gohugoio/hugoDocs/pulls&#34;&gt;https://github.com/gohugoio/hugoDocs/pulls&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;We want this to show Hugo in its best light, so this is not for the average Hugo blog. In most cases the answer to &amp;ldquo;Is my site &lt;a href=&#34;https://www.dictionary.com/browse/notable&#34;&gt;notable&lt;/a&gt;?&amp;rdquo; will be obvious, but if in doubt, create an &lt;a href=&#34;https://github.com/gohugoio/hugoDocs/issues&#34;&gt;issue&lt;/a&gt; with a link and some words, and we can discuss it. But if you have a site with an interesting Hugo story or a company site where the company itself is notable, you are most welcome. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

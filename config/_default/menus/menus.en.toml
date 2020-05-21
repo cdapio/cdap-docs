@@ -118,7 +118,7 @@
     name = "Documentation"
     weight = 1
     identifier = "docs"
-    url = "/documentation/"
+    url = "/about/"
 	
 [[global]]
     name = "Releases"
