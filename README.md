@@ -2,9 +2,11 @@
 
 To setup and build docs locally the following software needs to be installed once
 
-1. Install Github [https://gist.github.com/derhuerst/1b15ff4652a867391f03#file-mac-md] (https://gist.github.com/derhuerst/1b15ff4652a867391f03#file-mac-md)
+Instructions for Mac OS
 
-2. Install Hugo [https://gohugo.io/getting-started/installing/#homebrew-macos] (https://gohugo.io/getting-started/installing/#homebrew-macos)
+1. Install Github from [here] (https://gist.github.com/derhuerst/1b15ff4652a867391f03#file-mac-md)
+
+2. Install Hugo [here] (https://gohugo.io/getting-started/installing/#homebrew-macos)
 
 ## Build
 
