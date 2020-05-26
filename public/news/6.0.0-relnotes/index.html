@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    
+    <link rel="preload" href="https://gohugo.io/fonts/muli-latin-200.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://gohugo.io/fonts/muli-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://gohugo.io/fonts/muli-latin-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     
+    <title>CDAP 6.0.0: Storage APIs, Portable Runtime and Pipeline enhancements | Hugo</title>
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+     <meta name="generator" content="Hugo 0.64.0" />
+
+      
+        <meta name="robots" content="noindex, nofollow">
+      
+
+    
+    
+    
+    
+    
+    
+      
+      <link rel="stylesheet" href="/output/css/app.min.ad562859471199bcc5ab2d00a2785f48a93292e27531cd75748513cd01001752.css" integrity="sha256-rVYoWUcRmbzFqy0AonhfSKkykuJ1Mc11dIUTzQEAF1I=" crossorigin="anonymous">
+      
+          
+    
+
+
+     
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/output/js/app.09ca7921ca2b6e15c2dc516eccf642c08861fe5c249cc9073fb370c0a8a9022c.js" integrity="sha256-Ccp5IcorbhXC3FFuzPZCwIhh/lwknMkHP7NwwKipAiw=" crossorigin="anonymous" defer></script>
+  
+      
+ 
+
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+      
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0594cb">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:title" content="CDAP 6.0.0: Storage APIs, Portable Runtime and Pipeline enhancements" />
+<meta property="og:description" content="Storage APIs, Portable Runtime and Pipeline enhancements" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gohugo.io/news/6.0.0-relnotes/" />
+<meta property="og:image" content="https://gohugo.io/images/blog/hugo-bug-poster.png" />
+<meta property="article:published_time" content="2019-12-31T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-02-10T08:16:47-08:00" />
+<meta itemprop="name" content="CDAP 6.0.0: Storage APIs, Portable Runtime and Pipeline enhancements">
+<meta itemprop="description" content="Storage APIs, Portable Runtime and Pipeline enhancements">
+<meta itemprop="datePublished" content="2019-12-31T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-02-10T08:16:47-08:00" />
+<meta itemprop="wordCount" content="144">
+<meta itemprop="image" content="https://gohugo.io/images/blog/hugo-bug-poster.png">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://gohugo.io/images/blog/hugo-bug-poster.png"/>
+
+<meta name="twitter:title" content="CDAP 6.0.0: Storage APIs, Portable Runtime and Pipeline enhancements"/>
+<meta name="twitter:description" content="Storage APIs, Portable Runtime and Pipeline enhancements"/>
+<meta name="twitter:site" content="@GoHugoIO"/>
+
+
+
+          
+
+  </head>
+  <body class="ma0 sans-serif bg-primary-color-light ">
+    
+<nav class="bg-primary-color-dark pv3 w-100" role="navigation">
+
+  <div class="center flex-ns flex-wrap items-center justify-start mw9">
+
+    <h1 class="dim f3 lh-solid ml0-ns mr0 mr4-l mv0 pl3 pl3-ns">
+      <a href="https://gohugo.io/" class="link white">
+         CDAP Help Center
+      </a>
+    </h1>
+    <ul class="list ma0 pa0 dn dib-l">
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="/about/" class="dim link light-silver">
+            Documentation
+              
+            
+            
+          </a>
+        </li>
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="/news/" class="dim link light-silver">
+            Releases
+              
+            
+            
+          </a>
+        </li>
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="/tutorial" class="dim link light-silver">
+            Tutorial
+              
+            
+            
+          </a>
+        </li>
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="/knowledge-base" class="dim link light-silver">
+            Knowledge Base
+              
+            
+            
+          </a>
+        </li>
+      
+    </ul>
+
+    <div class="db dib-ns pl2 pr2" style="margin-left:auto"><form id="site-search-form" action="" role="search">
+  <fieldset class="bn ma0 pa0">
+    <label class="clip" for="search-input">Search</label>
+    <input type="search" id="search-input" class="needs-js bg-left bn f5 input-reset lh-solid mt3 mt0-ns pl4 pv1 w5 white" placeholder="Search documentation" name="search-input" value="" style="background: transparent url('/images/icon-search.png') no-repeat 0 8px /16px 16px;">
+  </fieldset>
+</form>
+</div>
+
+    
+
+  </div>
+</nav>
+
+    
+    <main role="main" class="content-with-sidebar min-vh-100 pb7 pb0-ns">
+      
+  
+
+  <article class="cf ph4 pv3 pv5-ns">
+      
+    <header class="flex-none w-100 pb3">
+      
+        
+          <a href="/categories/releases" class="f6 fw8 mb0 link mid-gray dim mr3">
+            RELEASES
+          </a>
+        
+      
+
+      <h1 class="lh-title fw9 mb7 mv0 pt3">
+        <a href="/news/6.0.0-relnotes/" class="link primary-color dim">
+          CDAP 6.0.0: Storage APIs, Portable Runtime and Pipeline enhancements
+        </a>
+      </h1>
+    </header>
+
+    <div class="flex-l">
+      <aside class="mid-gray fn w-100 w-25-l">
+        
+          <h2 class="f3 lh-title">
+            Storage APIs, Portable Runtime and Pipeline enhancements
+          </h2>
+        
+        <time class="f6 mt2 db ttu tracked" datetime="2019-12-31T00:00:00Z">
+          December 31, 2019
+        </time>
+        
+        <p>
+        Go to <a href="https://github.com/cdapio/cdap/releases" class="link primary-color dim">CDAP Releases</a> for the release downloads.
+        </p>
+        
+        
+
+        <div class="nested-links mt4">
+
+	<div date-pref>
+		
+			<a href="https://gohugo.io/news/6.1.1-relnotes/" class="dib f6 pl1 hover-bg-light-gray br-100" title="CDAP 6.1.1: Pipeline Improvements, Field Level Lineage and bugfixes ">
+				<svg class="fill-current" height="30px" viewBox="0 0 24 24" width="30px" xmlns="http://www.w3.org/2000/svg">
+    <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+    <path d="M0 0h24v24H0z" fill="none"/>
+</svg>
+
+			</a>
+		
+
+		
+			<a href="https://gohugo.io/news/5.1.2-relnotes/" class="dib f6 pr1 hover-bg-light-gray br-100" title="CDAP 5.1.2: Storage APIs, Portable Runtime and Pipeline enhancements">
+			<svg class="fill-current" height="30px" viewBox="0 0 24 24" width="30px" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+    <path d="M0 0h24v24H0z" fill="none"/>
+</svg>
+
+			</a>
+		
+	</div>
+
+</div>
+
+      </aside>
+
+      <div class="fn pl5-l pt3 mid-gray w-100 w-two-third-l sans-serif nested-copy-line-height no-underline nested-links nested-img nested-copy-seperator nested-blockquote measure-wide-l">
+        
+          
+          
+          
+		  <p>This release introduces a number of new features, improvements, and bug fixes to CDAP. Some of the main highlights of the release are:</p>
+<ul>
+<li><strong>Storage SPIs</strong>
+<ul>
+<li>Storage SPIs provide abstraction for all system storage used by CDAP so that CDAP is more portable across runtime enviroments - Hadoop or Hadoop-free environments.</li>
+</ul>
+</li>
+<li><strong>Portable Runtime</strong>
+<ul>
+<li>Provide a runtime architecture for CDAP to support both Hadoop and Hadoopless environments, such as Kubernetes, in a distributed and secure fashion.</li>
+</ul>
+</li>
+<li><strong>Pipeline Enhancements</strong>
+<ul>
+<li>Improve experience of building pipelines with the help of features such as copy &amp; paste and minimap of the pipeline. Add support for more data types.</li>
+</ul>
+</li>
+</ul>
+<p>This is a bug-fix release with a couple of important fixes.</p>
+<ul>
+<li>hugofs: Fix mount with hole regression <a href="https://github.com/gohugoio/hugo/commit/b78576fd38a76bbdaab5ad21228c8e5a559090b1">b78576fd</a> <a href="https://github.com/bep">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/6854">#6854</a></li>
+<li>Fix bundle resource ordering regression <a href="https://github.com/gohugoio/hugo/commit/18888e09bbb5325bdd63f2cd93116ff490dd37ab">18888e09</a> <a href="https://github.com/bep">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/6851">#6851</a></li>
+<li>CONTRIBUTING: Fix note about CGO <a href="https://github.com/gohugoio/hugo/commit/7f0ebd4a3c9e016afddc2cf5e7dfe6a820aa099a">7f0ebd4a</a> <a href="https://github.com/moorereason">@moorereason</a></li>
+<li>Update Go version requirement <a href="https://github.com/gohugoio/hugo/commit/23ea43180b84e35d99e88083a83e7ca1916b3b36">23ea4318</a> <a href="https://github.com/bep">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/6853">#6853</a></li>
+</ul>
+
+	
+       <h2> Few Features </h2>			  
+       <div>
+         
+     </div>
+		 		  
+      </div>
+    </div>
+	
+    
+
+
+
+  </article>
+
+
+    </main>
+
+    <footer class="bg-primary-color-dark ph4-ns pt4 relative w-100" role="contentinfo">
+    <div class="center flex-ns flex-wrap justify-between mw9 w-90">
+      <div class="pb3 pt4 w-100 w-50-ns">
+	
+    </div>
+	  
+
+    <div class="f7 gray mb5 mb0-ns ph3 w-100"> 
+      <p class="dib mr4">Copyright © Cask Data, Inc. 2011–2020.</p>
+    </div>
+
+    
+
+    <div class="bg-primary-color-dark bottom-0 left-0 right-0 dn-l fixed pb3 ph3 w-100"><div  class="globalmenu mobilemenu pb3 dn">
+    
+
+<ul class="list hidden dib ph0 ma0 scrolling-touch tc">
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/about/" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          Documentation
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/news/" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          Releases
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/tutorial" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          Tutorial
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/knowledge-base" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          Knowledge Base
+        </a>
+    </li>
+  
+</ul>
+
+</div>
+<div  class="docsmenu mobilemenu pb3 dn">
+    
+
+<ul class="list dib ph0 ma0 scrolling-touch tc">
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/about/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          About CDAP
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100 mb2 bb b--mid-gray">
+        <a href="/getting-started/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Getting Started
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/contribute/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Contribute
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/platform/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Platform
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/accelerators/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Accelerators
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/devel-and-testing/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          CI/CD
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/administrations/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Administrations
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100 mb2 bb b--mid-gray">
+        <a href="/operations/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Operations
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/rest-apis/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Rest APIs
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/client-apis/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Client APIs
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/hub/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Hub
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/license/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          License
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/3rd-party-int/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Third Party Integrations
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100 mb2 bb b--mid-gray">
+        <a href="/tools/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Tools
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/tags/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Tags
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/categories/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Categories
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/maintenance/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Maintenance
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          functions
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          hosting-and-deployment
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          pipes
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          troubleshooting
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          variables
+        </a>
+    </li>
+  
+</ul>
+
+</div>
+
+<div class="flex dn-l justify-between">
+  <button class="js-toggle flex-auto dib dn-l f6 tc db mt4-ns ph3 pv2 link mr2 white bg-primary-color-dark hover-bg-primary-color ba b--white-40 w-auto" data-target=".globalmenu">Menu</button>
+
+  <button class="js-toggle flex-auto dib dn-l f6 tc db mt4-ns ph3 pv2 link white bg-primary-color-dark hover-bg-primary-color ba b--white-40 w-auto" data-target=".docsmenu">Documentation</button>
+</div>
+</div>
+
+</footer>
+
+    
+
+  </body>
+</html>

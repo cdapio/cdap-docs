@@ -1,0 +1,1480 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    
+    <link rel="preload" href="https://gohugo.io/fonts/muli-latin-200.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://gohugo.io/fonts/muli-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://gohugo.io/fonts/muli-latin-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     
+    <title>troubleshooting | Hugo</title>
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+     <meta name="generator" content="Hugo 0.64.0" />
+
+      
+        <meta name="robots" content="noindex, nofollow">
+      
+
+    <link rel="alternate" type="application/rss&#43;xml" href="https://gohugo.io/categories/troubleshooting/index.xml">
+    
+    
+    
+    
+    
+    
+      
+      <link rel="stylesheet" href="/output/css/app.min.ad562859471199bcc5ab2d00a2785f48a93292e27531cd75748513cd01001752.css" integrity="sha256-rVYoWUcRmbzFqy0AonhfSKkykuJ1Mc11dIUTzQEAF1I=" crossorigin="anonymous">
+      
+          
+    
+
+
+     
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/output/js/app.09ca7921ca2b6e15c2dc516eccf642c08861fe5c249cc9073fb370c0a8a9022c.js" integrity="sha256-Ccp5IcorbhXC3FFuzPZCwIhh/lwknMkHP7NwwKipAiw=" crossorigin="anonymous" defer></script>
+  
+      
+ 
+
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+      
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0594cb">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:title" content="troubleshooting" />
+<meta property="og:description" content="The world’s fastest framework for building websites" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://gohugo.io/categories/troubleshooting/" />
+<meta property="og:image" content="https://gohugo.io/images/gohugoio-card.png"/>
+<meta property="og:updated_time" content="2018-02-10T00:00:00+00:00" />
+<meta itemprop="name" content="troubleshooting">
+<meta itemprop="description" content="The world’s fastest framework for building websites"><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://gohugo.io/images/gohugoio-card.png"/>
+
+<meta name="twitter:title" content="troubleshooting"/>
+<meta name="twitter:description" content="The world’s fastest framework for building websites"/>
+<meta name="twitter:site" content="@GoHugoIO"/>
+
+
+
+          
+
+  </head>
+  <body class="ma0 sans-serif bg-primary-color-light ">
+    
+<nav class="bg-primary-color-dark pv3 w-100" role="navigation">
+
+  <div class="center flex-ns flex-wrap items-center justify-start mw9">
+
+    <h1 class="dim f3 lh-solid ml0-ns mr0 mr4-l mv0 pl3 pl3-ns">
+      <a href="https://gohugo.io/" class="link white">
+         CDAP Help Center
+      </a>
+    </h1>
+    <ul class="list ma0 pa0 dn dib-l">
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="/about/" class="dim link light-silver">
+            Documentation
+              
+            
+            
+          </a>
+        </li>
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="/news/" class="dim link light-silver">
+            Releases
+              
+            
+            
+          </a>
+        </li>
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="/tutorial" class="dim link light-silver">
+            Tutorial
+              
+            
+            
+          </a>
+        </li>
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="/knowledge-base" class="dim link light-silver">
+            Knowledge Base
+              
+            
+            
+          </a>
+        </li>
+      
+    </ul>
+
+    <div class="db dib-ns pl2 pr2" style="margin-left:auto"><form id="site-search-form" action="" role="search">
+  <fieldset class="bn ma0 pa0">
+    <label class="clip" for="search-input">Search</label>
+    <input type="search" id="search-input" class="needs-js bg-left bn f5 input-reset lh-solid mt3 mt0-ns pl4 pv1 w5 white" placeholder="Search documentation" name="search-input" value="" style="background: transparent url('/images/icon-search.png') no-repeat 0 8px /16px 16px;">
+  </fieldset>
+</form>
+</div>
+
+    
+
+  </div>
+</nav>
+
+    
+    <main role="main" class="content-with-sidebar min-vh-100 pb7 pb0-ns">
+      
+  
+  
+  <div class="w-100 ph4 pb5 pb6-ns pt1 mt4 pt3-ns">
+
+  <div class="flex">
+    <div class="dn db-l w-20">
+        
+<nav role="navigation">
+  <ul class="list pa1 nl3">
+    
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".about">About CDAP</a>
+        <ul class="about desktopmenu animated fadeIn list pl0 bg-light-gray dn">
+          <li class="f6 fw4">
+            <a href="/about/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Overview
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/about/history/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              History
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/about/benefits/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Benefits
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/about/features/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Features
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/about/roadmap/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Roadmap
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/about/security/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Security
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/about/license/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              License
+            </a>
+          </li>
+        </ul>
+      </li>
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8 mb1 bb b--moon-gray">
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".getting-started">Getting Started</a>
+        <ul class="getting-started desktopmenu animated fadeIn list pl0 bg-light-gray dn">
+          <li class="f6 fw4">
+            <a href="/getting-started/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Get Started Overview
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/getting-started/quick-start/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Quick Start
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/getting-started/installing/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Install Hugo
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/getting-started/usage/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Basic Usage
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/getting-started/directory-structure/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Directory Structure
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/getting-started/configuration/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Configuration
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/getting-started/external-learning-resources/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              External Learning Resources
+            </a>
+          </li>
+        </ul>
+      </li>
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".contribute">Contribute</a>
+        <ul class="contribute desktopmenu animated fadeIn list pl0 bg-light-gray dn">
+          <li class="f6 fw4">
+            <a href="/contribute/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Contribute to Hugo
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/contribute/development/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Development
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/contribute/documentation/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Documentation
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/contribute/themes/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Themes
+            </a>
+          </li>
+        </ul>
+      </li>
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="/platform/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".platform">Platform</a>
+      </li>
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="/accelerators/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".accelerators">Accelerators</a>
+      </li>
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="/devel-and-testing/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".devel-and-testing">CI/CD</a>
+      </li>
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="/administrations/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".administrations">Administrations</a>
+      </li>
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8 mb1 bb b--moon-gray">
+        <a href="/operations/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".operations">Operations</a>
+      </li>
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="/rest-apis/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".rest-apis">Rest APIs</a>
+      </li>
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="/client-apis/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".client-apis">Client APIs</a>
+      </li>
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="/hub/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".hub">Hub</a>
+      </li>
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="/license/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".license">License</a>
+      </li>
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="/3rd-party-int/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".3rd-party-int">Third Party Integrations</a>
+      </li>
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8 mb1 bb b--moon-gray">
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".tools">Tools</a>
+        <ul class="tools desktopmenu animated fadeIn list pl0 bg-light-gray dn">
+          <li class="f6 fw4">
+            <a href="/tools/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Developer Tools Overview
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/tools/migrations/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Migrations
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/tools/starter-kits/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Starter Kits
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/tools/frontends/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Frontends
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/tools/editors/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Editor Plug-ins
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/tools/search/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Search
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/tools/other/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Other Projects
+            </a>
+          </li>
+        </ul>
+      </li>
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="/tags/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".tags">Tags</a>
+      </li>
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="/categories/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".categories">Categories</a>
+      </li>
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="/maintenance/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".">Maintenance</a>
+      </li>
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".">functions</a>
+        <ul class=" desktopmenu animated fadeIn list pl0 bg-light-gray dn">
+          <li class="f6 fw4">
+            <a href="/functions/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Functions Quick Reference
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/adddate/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              .AddDate
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/format/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              .Format
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/get/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              .Get
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/getpage/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              .GetPage
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/hasmenucurrent/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              .HasMenuCurrent
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/ismenucurrent/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              .IsMenuCurrent
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/param/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              .Param
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/render/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              .Render
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/renderstring/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              .RenderString
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/scratch/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              .Scratch
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/unix/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              .Unix
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/abslangurl/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              absLangURL
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/absurl/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              absURL
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/after/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              after
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/anchorize/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              anchorize
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/append/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              append
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/apply/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              apply
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/base64/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              base64
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/chomp/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              chomp
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/complement/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              complement
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/cond/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              cond
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/countrunes/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              countrunes
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/countwords/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              countwords
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/dateformat/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              dateFormat
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/default/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              default
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/delimit/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              delimit
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/dict/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              dict
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/echoparam/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              echoParam
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/emojify/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              emojify
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/eq/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              eq
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/errorf/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              errorf and warnf
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/fileexists/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              fileExists
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/findre/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              findRE
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/first/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              first
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/float/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              float
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/ge/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              ge
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/getenv/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              getenv
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/group/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              group
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/gt/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              gt
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/hasprefix/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              hasPrefix
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/highlight/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              highlight
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/htmlescape/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              htmlEscape
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/htmlunescape/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              htmlUnescape
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/hugo/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              hugo
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/humanize/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              humanize
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/i18n/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              i18n
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/images/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Image Functions
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/in/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              in
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/index-function/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              index
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/int/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              int
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/intersect/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              intersect
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/isset/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              isset
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/jsonify/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              jsonify
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/lang.merge/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              lang.Merge
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/numfmt/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              lang.NumFmt
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/last/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              last
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/le/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              le
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/lower/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              lower
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/lt/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              lt
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/markdownify/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              markdownify
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/math/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Math
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/md5/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              md5
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/merge/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              merge
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/ne/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              ne
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/now/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              now
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/os.stat/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              os.Stat
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/partialcached/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              partialCached
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/path.base/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              path.Base
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/path.dir/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              path.Dir
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/path.ext/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              path.Ext
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/path.join/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              path.Join
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/path.split/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              path.Split
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/plainify/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              plainify
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/pluralize/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              pluralize
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/print/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              print
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/printf/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              printf
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/println/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              println
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/querify/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              querify
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/range/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              range
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/readdir/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              readDir
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/readfile/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              readFile
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/ref/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              ref
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/reflect.ismap/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              reflect.IsMap
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/reflect.isslice/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              reflect.IsSlice
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/rellangurl/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              relLangURL
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/relref/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              relref
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/relurl/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              relURL
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/replace/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              replace
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/replacere/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              replaceRE
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/safecss/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              safeCSS
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/safehtml/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              safeHTML
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/safehtmlattr/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              safeHTMLAttr
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/safejs/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              safeJS
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/safeurl/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              safeURL
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/seq/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              seq
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/sha/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              sha
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/shuffle/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              shuffle
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/singularize/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              singularize
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/slice/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              slice
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/slicestr/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              slicestr
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/sort/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              sort
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/split/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              split
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/string/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              string
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/strings.hassuffix/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              strings.HasSuffix
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/strings.repeat/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              strings.Repeat
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/strings.runecount/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              strings.RuneCount
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/strings.trimleft/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              strings.TrimLeft
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/strings.trimprefix/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              strings.TrimPrefix
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/strings.trimright/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              strings.TrimRight
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/strings.trimsuffix/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              strings.TrimSuffix
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/substr/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              substr
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/symdiff/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              symdiff
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/templates.exists/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              templates.Exists
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/time/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              time
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/title/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              title
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/transform.unmarshal/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              transform.Unmarshal
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/trim/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              trim
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/truncate/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              truncate
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/union/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              union
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/uniq/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              uniq
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/upper/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              upper
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/urlize/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              urlize
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/urls.parse/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              urls.Parse
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/where/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              where
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/functions/with/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              with
+            </a>
+          </li>
+        </ul>
+      </li>
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".">hosting-and-deployment</a>
+        <ul class=" desktopmenu animated fadeIn list pl0 bg-light-gray dn">
+          <li class="f6 fw4">
+            <a href="/hosting-and-deployment/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Hosting &amp; Deployment Overview
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/hosting-and-deployment/hugo-deploy/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Hugo Deploy
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/hosting-and-deployment/deployment-with-nanobox/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Host-Agnostic Deploys with Nanobox
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/hosting-and-deployment/hosting-on-aws-amplify/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Host on AWS Amplify
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/hosting-and-deployment/hosting-on-netlify/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Host on Netlify
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/hosting-and-deployment/hosting-on-render/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Host on Render
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/hosting-and-deployment/hosting-on-firebase/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Host on Firebase
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/hosting-and-deployment/hosting-on-github/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Host on GitHub
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/hosting-and-deployment/hosting-on-gitlab/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Host on GitLab
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/hosting-and-deployment/hosting-on-keycdn/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Hosting on KeyCDN
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/hosting-and-deployment/hosting-on-bitbucket/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Host on Bitbucket
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/hosting-and-deployment/deployment-with-wercker/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Deployment with Wercker
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/hosting-and-deployment/deployment-with-rsync/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Deployment with Rsync
+            </a>
+          </li>
+        </ul>
+      </li>
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".">pipes</a>
+        <ul class=" desktopmenu animated fadeIn list pl0 bg-light-gray dn">
+          <li class="f6 fw4">
+            <a href="/hugo-pipes/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Hugo Pipes Overview
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/hugo-pipes/introduction/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Hugo Pipes Introduction
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/hugo-pipes/scss-sass/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              SASS / SCSS
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/hugo-pipes/postcss/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              PostCSS
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/hugo-pipes/minification/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Asset minification
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/hugo-pipes/bundling/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Asset bundling
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/hugo-pipes/fingerprint/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Fingerprinting and SRI
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/hugo-pipes/resource-from-template/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Resource from Template
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/hugo-pipes/resource-from-string/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Resource from String
+            </a>
+          </li>
+        </ul>
+      </li>
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".">troubleshooting</a>
+        <ul class=" desktopmenu animated fadeIn list pl0 bg-light-gray dn">
+          <li class="f6 fw4">
+            <a href="/troubleshooting/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Troubleshoot
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/troubleshooting/faq/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              FAQ
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/troubleshooting/build-performance/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Build Performance
+            </a>
+          </li>
+        </ul>
+      </li>
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".">variables</a>
+        <ul class=" desktopmenu animated fadeIn list pl0 bg-light-gray dn">
+          <li class="f6 fw4">
+            <a href="/variables/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Variables Overview
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/variables/site/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Site Variables
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/variables/page/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Page Variables
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/variables/shortcodes/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Shortcode Variables
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/variables/pages/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Pages Methods
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/variables/taxonomy/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Taxonomy Variables
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/variables/files/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              File Variables
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/variables/menus/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Menu Entry Properties
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/variables/hugo/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Hugo Variables
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/variables/git/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Git Variables
+            </a>
+          </li>
+          <li class="f6 fw4">
+            <a href="/variables/sitemap/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+              Sitemap Variables
+            </a>
+          </li>
+        </ul>
+      </li>
+  </ul>
+</nav>
+
+    </div>
+
+    <div class="w-100 w-80-l ph0 ph4-l">
+      <article class="w-100 nested-copy-line-height nested-links nested-img">
+        <h1 class="primary-color-dark f2">
+          Category: troubleshooting
+        </h1>
+        <div class=" mid-gray f5 f5-l">
+          
+        </div>
+      </article>
+
+      
+
+      <div class="flex flex-wrap">
+        
+        <section class="flex-ns flex-wrap justify-between w-100">
+          
+            <div class="relative flex-auto w-100 w-40-l mr3 mb3 bg-white ba b--moon-gray nested-copy-line-height weight-2">
+
+  <div class="bg-white mb2 pa2 pa4-l gray">
+    
+
+    <h1 class="near-black f3">
+      <a href="/troubleshooting/faq/" class="link primary-color dim">Frequently Asked Questions</a>
+    </h1>
+
+    <div class="lh-copy links">
+      
+          Solutions to some common Hugo problems.
+        
+
+        <a href="/troubleshooting/faq/" class="f6 mt2 db link primary-color dim">
+          Read More &raquo;
+        </a>
+
+    </div>
+
+
+  </div>
+</div>
+
+          
+            <div class="relative flex-auto w-100 w-40-l mr3 mb3 bg-white ba b--moon-gray nested-copy-line-height weight-3">
+
+  <div class="bg-white mb2 pa2 pa4-l gray">
+    
+
+    <h1 class="near-black f3">
+      <a href="/troubleshooting/build-performance/" class="link primary-color dim">Build Performance</a>
+    </h1>
+
+    <div class="lh-copy links">
+      
+          An overview of features used for diagnosing and improving performance issues in site builds.
+        
+
+        <a href="/troubleshooting/build-performance/" class="f6 mt2 db link primary-color dim">
+          Read More &raquo;
+        </a>
+
+    </div>
+
+
+  </div>
+</div>
+
+          
+        </section>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+    </main>
+
+    <footer class="bg-primary-color-dark ph4-ns pt4 relative w-100" role="contentinfo">
+    <div class="center flex-ns flex-wrap justify-between mw9 w-90">
+      <div class="pb3 pt4 w-100 w-50-ns">
+	
+    </div>
+	  
+
+    <div class="f7 gray mb5 mb0-ns ph3 w-100"> 
+      <p class="dib mr4">Copyright © Cask Data, Inc. 2011–2020.</p>
+    </div>
+
+    
+
+    <div class="bg-primary-color-dark bottom-0 left-0 right-0 dn-l fixed pb3 ph3 w-100"><div  class="globalmenu mobilemenu pb3 dn">
+    
+
+<ul class="list hidden dib ph0 ma0 scrolling-touch tc">
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/about/" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          Documentation
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/news/" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          Releases
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/tutorial" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          Tutorial
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/knowledge-base" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          Knowledge Base
+        </a>
+    </li>
+  
+</ul>
+
+</div>
+<div  class="docsmenu mobilemenu pb3 dn">
+    
+
+<ul class="list dib ph0 ma0 scrolling-touch tc">
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/about/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          About CDAP
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100 mb2 bb b--mid-gray">
+        <a href="/getting-started/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Getting Started
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/contribute/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Contribute
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/platform/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Platform
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/accelerators/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Accelerators
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/devel-and-testing/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          CI/CD
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/administrations/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Administrations
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100 mb2 bb b--mid-gray">
+        <a href="/operations/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Operations
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/rest-apis/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Rest APIs
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/client-apis/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Client APIs
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/hub/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Hub
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/license/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          License
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/3rd-party-int/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Third Party Integrations
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100 mb2 bb b--mid-gray">
+        <a href="/tools/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Tools
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/tags/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Tags
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/categories/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Categories
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/maintenance/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Maintenance
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          functions
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          hosting-and-deployment
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          pipes
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          troubleshooting
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          variables
+        </a>
+    </li>
+  
+</ul>
+
+</div>
+
+<div class="flex dn-l justify-between">
+  <button class="js-toggle flex-auto dib dn-l f6 tc db mt4-ns ph3 pv2 link mr2 white bg-primary-color-dark hover-bg-primary-color ba b--white-40 w-auto" data-target=".globalmenu">Menu</button>
+
+  <button class="js-toggle flex-auto dib dn-l f6 tc db mt4-ns ph3 pv2 link white bg-primary-color-dark hover-bg-primary-color ba b--white-40 w-auto" data-target=".docsmenu">Documentation</button>
+</div>
+</div>
+
+</footer>
+
+    
+
+  </body>
+</html>

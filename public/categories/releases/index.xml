@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Releases on Hugo</title>
+    <link>https://gohugo.io/categories/releases/</link>
+    <description>Recent content in Releases on Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://gohugo.io/categories/releases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CDAP 6.1.1: Pipeline Improvements, Field Level Lineage and bugfixes</title>
+      <link>https://gohugo.io/news/6.1.1-relnotes/</link>
+      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/news/6.1.1-relnotes/</guid>
+      <description>This release introduces a number of new features, improvements, and bug fixes to CDAP. Some of the main highlights of the release are:
+ Pipeline improvements  Validation checks for plugins for early error detection and prevention New widgets for better pipeline configurability Wrangler ADLS connection   Field Level Lineage  New, intuitive UI for field level lineage Field level lineage support for more plugins   Platform enhancements  Performance improvements across the platform Migration of more UI components from Angular to React    </description>
+    </item>
+    
+    <item>
+      <title>CDAP 6.0.0: Storage APIs, Portable Runtime and Pipeline enhancements</title>
+      <link>https://gohugo.io/news/6.0.0-relnotes/</link>
+      <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/news/6.0.0-relnotes/</guid>
+      <description>This release introduces a number of new features, improvements, and bug fixes to CDAP. Some of the main highlights of the release are:
+ Storage SPIs  Storage SPIs provide abstraction for all system storage used by CDAP so that CDAP is more portable across runtime enviroments - Hadoop or Hadoop-free environments.   Portable Runtime  Provide a runtime architecture for CDAP to support both Hadoop and Hadoopless environments, such as Kubernetes, in a distributed and secure fashion.</description>
+    </item>
+    
+    <item>
+      <title>CDAP 5.1.2: Storage APIs, Portable Runtime and Pipeline enhancements</title>
+      <link>https://gohugo.io/news/5.1.2-relnotes/</link>
+      <pubDate>Sun, 13 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/news/5.1.2-relnotes/</guid>
+      <description>This release introduces a number of new features, improvements, and bug fixes to CDAP. Some of the main highlights of the release are:
+ Storage SPIs  Storage SPIs provide abstraction for all system storage used by CDAP so that CDAP is more portable across runtime enviroments - Hadoop or Hadoop-free environments.   Portable Runtime  Provide a runtime architecture for CDAP to support both Hadoop and Hadoopless environments, such as Kubernetes, in a distributed and secure fashion.</description>
+    </item>
+    
+    <item>
+      <title>CDAP 4.3.4: Major release</title>
+      <link>https://gohugo.io/news/4.3.4/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/news/4.3.4/</guid>
+      <description>This release introduces a number of new features, improvements, and bug fixes to CDAP. Some of the main highlights of the release are:
+ Storage SPIs  Storage SPIs provide abstraction for all system storage used by CDAP so that CDAP is more portable across runtime enviroments - Hadoop or Hadoop-free environments.   Portable Runtime  Provide a runtime architecture for CDAP to support both Hadoop and Hadoopless environments, such as Kubernetes, in a distributed and secure fashion.</description>
+    </item>
+    
+  </channel>
+</rss>

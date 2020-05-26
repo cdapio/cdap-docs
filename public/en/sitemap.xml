@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://gohugo.io/hugo-pipes/introduction/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/contribute/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/getting-started/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/documentation/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/about/</loc>
+    <lastmod>2020-02-11T08:56:34-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/troubleshooting/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/variables/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/tools/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/hosting-and-deployment/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/hosting-and-deployment/hugo-deploy/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/hugo-pipes/scss-sass/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/troubleshooting/faq/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/about/history/</loc>
+    <lastmod>2020-02-11T08:56:34-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/about/benefits/</loc>
+    <lastmod>2020-02-11T08:56:34-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/troubleshooting/build-performance/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/about/features/</loc>
+    <lastmod>2020-02-11T08:56:34-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/about/roadmap/</loc>
+    <lastmod>2020-02-11T08:56:34-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/about/security/</loc>
+    <lastmod>2020-02-11T08:56:34-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/hosting-and-deployment/deployment-with-nanobox/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/hosting-and-deployment/hosting-on-render/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/hugo-pipes/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/hosting-and-deployment/hosting-on-aws-amplify/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/contribute/development/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/hosting-and-deployment/hosting-on-netlify/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/tools/migrations/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/variables/site/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/getting-started/quick-start/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/hosting-and-deployment/hosting-on-firebase/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/variables/shortcodes/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/contribute/documentation/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/variables/page/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/variables/pages/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/tools/starter-kits/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/variables/taxonomy/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/contribute/themes/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/getting-started/installing/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/hosting-and-deployment/hosting-on-github/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/hugo-pipes/postcss/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/getting-started/usage/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/variables/files/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/tools/frontends/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/hosting-and-deployment/hosting-on-gitlab/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/hugo-pipes/minification/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/variables/menus/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/hosting-and-deployment/hosting-on-bitbucket/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/tools/editors/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/getting-started/directory-structure/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/hugo-pipes/bundling/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/getting-started/code-toggle/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/variables/hugo/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/hosting-and-deployment/deployment-with-wercker/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/tools/search/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/about/license/</loc>
+    <lastmod>2020-02-11T08:56:34-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/getting-started/configuration/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/getting-started/configuration-markup/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/getting-started/external-learning-resources/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/hugo-pipes/fingerprint/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/variables/git/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/hosting-and-deployment/deployment-with-rsync/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/tools/other/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/hugo-pipes/resource-from-template/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/variables/sitemap/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/hugo-pipes/resource-from-string/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/about-cdap/</loc>
+    <lastmod>2020-02-11T08:56:34-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/</loc>
+    <lastmod>2020-02-11T08:56:34-08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://gohugo.io/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gohugo.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/value/</loc>
+    <lastmod>2020-02-11T08:56:34-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/news/6.1.1-relnotes/</loc>
+    <lastmod>2020-02-10T08:16:47-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/releases/</loc>
+    <lastmod>2020-02-11T08:56:34-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/news/6.0.0-relnotes/</loc>
+    <lastmod>2020-02-10T08:16:47-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/renderstring/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/functions/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/fundamentals/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/getting-started/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/variables-and-params/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/news/5.1.2-relnotes/</loc>
+    <lastmod>2020-02-10T08:16:47-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/showcase/hapticmedia/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/showcase/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/news/4.3.4/</loc>
+    <lastmod>2020-02-11T08:56:34-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/strings.hassuffix/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/merge/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_check/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_check_ulimit/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_config/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_config_mounts/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_convert/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_convert_tojson/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_convert_totoml/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_convert_toyaml/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_deploy/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_env/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_gen/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_gen_autocomplete/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_gen_chromastyles/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_gen_doc/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_gen_man/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_import/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_import_jekyll/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_list/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_list_all/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_list_drafts/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_list_expired/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_list_future/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_mod/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_mod_clean/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_mod_get/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_mod_graph/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_mod_init/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_mod_tidy/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_mod_vendor/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_new/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_new_site/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_new_theme/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_server/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/commands/hugo_version/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/showcase/bypasscensorship/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/hosting-and-deployment/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/showcase/pharmaseal/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/showcase/fireship/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/hugo/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/transform.unmarshal/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/path.base/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/path.dir/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/path.ext/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/path.join/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/path.split/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/reflect.ismap/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/reflect.isslice/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/complement/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/symdiff/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/templates.exists/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/anchorize/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/append/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/group/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/showcase/over/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/showcase/arolla-cocoon/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/os.stat/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/asset-management/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/strings.runecount/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/strings.repeat/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/showcase/tomango/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/showcase/flesland-flis/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/showcase/forestry/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/lang.merge/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/showcase/letsencrypt/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/showcase/1password-support/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/showcase/stackimpact/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/showcase/quiply-employee-communications-app/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/showcase/linode/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/troubleshooting/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/showcase/hartwell-insurance/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/maintenance/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/showcase/pace-revenue-management/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/showcase/template/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/errorf/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/float/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/urls.parse/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/hosting-and-deployment/hosting-on-keycdn/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/cond/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/fileexists/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/ge/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/gt/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/le/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/lt/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/ne/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/</loc>
+    <lastmod>2020-02-11T08:56:34-08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://gohugo.io/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gohugo.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/adddate/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/format/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/get/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/getpage/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/hasmenucurrent/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/ismenucurrent/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/param/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/render/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/scratch/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/unix/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/abslangurl/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/absurl/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/after/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/apply/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/base64/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/chomp/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/contribute/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/countrunes/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/countwords/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/dateformat/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/default/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/delimit/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/developer-tools/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/dict/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/echoparam/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/emojify/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/eq/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/features/</loc>
+    <lastmod>2020-02-11T08:56:34-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/findre/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/first/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/getenv/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/hasprefix/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/highlight/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/htmlescape/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/htmlunescape/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/humanize/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/i18n/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/images/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/in/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/index-function/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/int/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/intersect/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/isset/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/jsonify/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/numfmt/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/last/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/len/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/lower/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/markdownify/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/math/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/md5/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/now/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/partialcached/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/plainify/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/pluralize/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/print/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/printf/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/println/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/querify/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/range/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/readdir/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/readfile/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/ref/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/rellangurl/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/relref/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/relurl/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/replace/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/replacere/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/safecss/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/safehtml/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/safehtmlattr/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/safejs/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/safeurl/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/seq/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/sha/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/shuffle/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/singularize/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/slice/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/slicestr/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/sort/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/split/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/string/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/strings.trimleft/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/strings.trimprefix/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/strings.trimright/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/strings.trimsuffix/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/substr/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/time/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/title/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/trim/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/truncate/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/union/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/uniq/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/upper/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/urlize/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/where/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/functions/with/</loc>
+    <lastmod>2020-02-09T17:50:30-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/history/</loc>
+    <lastmod>2020-02-11T08:56:34-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/categories/license/</loc>
+    <lastmod>2020-02-11T08:56:34-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gohugo.io/news/</loc>
+    <lastmod>2020-02-10T08:16:47-08:00</lastmod>
+  </url>
+  
+</urlset>

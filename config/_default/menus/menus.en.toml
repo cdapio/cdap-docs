@@ -1,0 +1,139 @@
+[[docs]]
+  name = "About CDAP"
+  weight = 1
+  identifier = "about"
+  url = "/about/"
+
+[[docs]]
+  name = "Getting Started"
+  weight = 5
+  identifier = "getting-started"
+  url = "/getting-started/"
+  post = "break"
+
+[[docs]]
+  name = "Contribute"
+  weight = 15
+  identifier = "contribute"
+  url = "/contribute/"
+
+# Core Menus
+
+[[docs]]
+  name = "Platform"
+  weight = 20
+  identifier = "platform"
+  post = "expanded"
+  url = "/platform/"
+
+[[docs]]
+  name = "Accelerators"
+  weight = 25
+  identifier = "accelerators"
+  url = "/accelerators/"
+
+[[docs]]
+  name = "CI/CD"
+  weight = 30
+  identifier = "devel-and-testing"
+  url = "/devel-and-testing/"
+
+[[docs]]
+  name = "Administrations"
+  weight = 35
+  identifier = "administrations"
+  url = "/administrations/"
+
+[[docs]]
+  name = "Operations"
+  weight = 36
+  identifier = "operations"
+  url = "/operations/"
+  post = "break"
+
+# LOW LEVEL ITEMS
+
+
+[[docs]]
+  name = "Rest APIs"
+  weight = 60
+  identifier = "rest-apis"
+  url = "/rest-apis/"
+
+[[docs]]
+  name = "Client APIs"
+  weight = 70
+  identifier = "client-apis"
+  url = "/client-apis/"
+
+[[docs]]
+  name = "Hub"
+  weight = 80
+  identifier = "hub"
+  url = "/hub/"
+
+[[docs]]
+  name = "Tools"
+  weight = 100
+  post = "break"
+  identifier = "tools"
+  url = "/tools/"
+
+[[docs]]
+  name = "Third Party Integrations"
+  weight = 100
+  identifier = "3rd-party-int"
+  url = "/3rd-party-int/"
+
+[[docs]]
+  name = "License"
+  weight = 100
+  identifier = "license"
+  url = "/license/"    
+
+[[docs]]
+  name = "Tags"
+  weight = 120
+  identifier = "tags"
+  url = "/tags/"
+
+
+ [[docs]]
+   name = "Categories"
+   weight = 140
+   identifier = "categories"
+   url = "/categories/"
+
+######## QUICKLINKS
+
+  [[quicklinks]]
+    name = "Fundamentals"
+    weight = 1
+    identifier = "fundamentals"
+    url = "/tags/fundamentals/"
+
+
+######## GLOBAL ITEMS TO BE SHARED WITH THE HUGO SITES
+[[global]]
+    name = "Documentation"
+    weight = 1
+    identifier = "docs"
+    url = "/about/"
+	
+[[global]]
+    name = "Releases"
+    weight = 5
+    identifier = "releases"
+    url = "/news/"
+
+  [[global]]
+    name = "Tutorial"
+    weight = 10
+    identifier = "tutorial"
+    url = "/tutorial"
+
+  [[global]]
+    name = "Knowledge Base"
+    weight = 15
+    identifier = "kb"
+    url = "/knowledge-base"    

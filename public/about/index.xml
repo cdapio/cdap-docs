@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overview on Hugo</title>
+    <link>https://gohugo.io/about/</link>
+    <description>Recent content in Overview on Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Feb 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://gohugo.io/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>History</title>
+      <link>https://gohugo.io/about/history/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/about/history/</guid>
+      <description>CDAP started as an open source project in 2011. CDAP was developed by Cask Data Inc. that was acquired by Google in 2018. CDAP has been in development for more than 8+ years and is running in production in multiple enterprises for about 5+ years. CDAP post-acquisition has had continued support at Google and its support and commitment to keep it open source.
+Cloud Data Fusion (CDF) is a fully-managed offering of CDAP on GCP stack.</description>
+    </item>
+    
+    <item>
+      <title>Benefits</title>
+      <link>https://gohugo.io/about/benefits/</link>
+      <pubDate>Sun, 16 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/about/benefits/</guid>
+      <description>CDAP helps technologist and architects
+ Increased Innovation and Faster Delivery — Support agility in delivering new data analytics solutions to the business on a stable, performant and extendable platform with simple to use APIs and inter-connectivity. Build-Once-Run-Anywhere — Deliver environment agnostic data solutions for Public Cloud, Private Cloud and On-Premise through unified platform abstraction for infrastructure. Standardize and reduce cost of integration — Pre-built integration with Enterprise and Cloud Technologies — Security, MDM, Scheduler, Monitoring, etc.</description>
+    </item>
+    
+    <item>
+      <title>Features</title>
+      <link>https://gohugo.io/about/features/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/about/features/</guid>
+      <description>General  XYZ CDAP  Organization  XYZ  Content  XYZ  Additional Features  XYZ  </description>
+    </item>
+    
+    <item>
+      <title>Roadmap</title>
+      <link>https://gohugo.io/about/roadmap/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/about/roadmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>https://gohugo.io/about/security/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/about/security/</guid>
+      <description>General Data Protection Regulation (GDPR) is a regulation in EU law on data protection and privacy for all individuals within the European Union and the European Economic Area. It became enforceable on 25 May 2018.
+Hugo is a static site generator. By using Hugo you are already standing on very solid ground. Static HTML files on disk are much easier to reason about compared to server and database driven web sites.</description>
+    </item>
+    
+    <item>
+      <title>Apache License</title>
+      <link>https://gohugo.io/about/license/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo.io/about/license/</guid>
+      <description>Version 2.0, January 2004 https://www.apache.org/licenses/LICENSE-2.0
+Terms and Conditions for use, reproduction, and distribution
+1. Definitions “License” shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+“Licensor” shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+“Legal Entity” shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity.</description>
+    </item>
+    
+  </channel>
+</rss>
